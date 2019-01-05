@@ -516,9 +516,24 @@ body {
 }
 .content__text {
 	font-size: 0.95rem;
-	column-count: 2;
 	column-gap: 2rem;
 	max-width: 600px;
 	text-align: justify;
 }
-/* } */
+
+@media screen and (max-width: 53em) { 
+	.content__text{
+		height: 50vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	}
+	.btn-hover{
+		width: 150px;
+		margin: 20px 0px;
+	}
+ } 
+ @media screen and (min-width: 53em) { 
+	.content__text{
+		column-count: 2;
+	}
+ } 
