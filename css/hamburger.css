@@ -691,7 +691,7 @@ article {
 .point {
   pointer-events: none;
 }
-
+/* 
 a.animated-button:link, a.animated-button:visited {
   position: relative;
   display: block;
@@ -709,7 +709,7 @@ a.animated-button:link, a.animated-button:visited {
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-  }
+  } */
 /* 
 a.animated-button:link, a.animated-button:visited {
   position: relative;
@@ -779,7 +779,7 @@ a.animated-button:link, a.animated-button:visited {
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
     transform: translateX(-50%) translateY(-50%) rotate(-25deg);
     }
-    /* Sandy Buttons */
+    Sandy Buttons
 
     a.animated-button.sandy-one {
     border: 2px solid #AEA8D3;
