@@ -2,17 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9062b0b7-5c0e-4d45-9110-0974a4c4585b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/register1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/register1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/charming.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/demo5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/demo5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/index5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/form/nearby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/Regopenmic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/cinderBG.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/events.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/gallery1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/gallery2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/hamburger.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/menu1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/menu2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/menu3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/register1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/css/register2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/fonts/slick-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/fonts/slick-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/fonts/slick-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/fonts/slick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/fonts/slickd41d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/Artboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/Artboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Art.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Dance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Drama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/FilmMaking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Gaming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Ipl_Auction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Life_n_style.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Literary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/MasterChef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Nukkad1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Nukkad2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/OpenMic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Photography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/QUIZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/Sahyog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/antrakshri.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/artncraft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/campus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/campusprincess.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/contrasto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/dance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/drama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/faceoff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/facepainting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/fifa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/flicker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/gaming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/ignitious.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/inkthetee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/iplauction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/letstangle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/lifenstyle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/literary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/masterchef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/medley.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/mime.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/minimilitia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/monoact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/mudra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/music.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/nukkad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/photography.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/pumpitup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/rapbattle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/razzmatazz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/sahyog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/shaktiman.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/solendius.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/spotlight.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/stageplay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/sursangam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/swaranjali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/tatootales.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/verismo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/events/vogue.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/11.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/13.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/14.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/16.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/gallery/background_gallery.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/menu/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/images/reghunkkar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/event1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/event2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/event3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/event4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/gallery1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/gallery2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/menu1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/menu2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/menu3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/menu4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/register1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/register2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/register3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/js/register4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/css/component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/css/pater.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/antrakshri.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/artncraft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/campus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/campusprincess.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/contrasto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/dance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/drama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/faceoff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/facepainting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/fifa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/flicker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/gaming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/ignitious.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/inkthetee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/iplauction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/letstangle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/lifenstyle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/literary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/masterchef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/medley.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/mime.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/minimilitia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/monoact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/mudra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/music.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/nukkad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/photography.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/pumpitup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/rapbattle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/razzmatazz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/sahyog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/shaktiman.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/solendius.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/spotlight.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/stageplay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/sursangam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/swaranjali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/tatootales.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/verismo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/events/vogue.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/viva_original.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/img/vivalogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/js/anime.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/old registration/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regbamboozled.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regchef.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regdance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regdrama.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regflick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/reggame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/reghunkaar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regipl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/charming.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/demo5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/demo5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/index5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/form/nearby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/js/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/registration/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regmusic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regphoto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regprincess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regsahyog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/viva-main-website-master/regvogue.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,27 +271,67 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="6" />
+          <entry key="html" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="152" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="525">
+              <caret line="234" column="142" selection-start-line="234" selection-start-column="142" selection-end-line="234" selection-end-column="142" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#contain#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#1;n#div#2;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#h3#0;n#div#0;n#a#0;n#div#4;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -68,6 +346,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gallery.html" />
       </list>
     </option>
   </component>
@@ -77,7 +356,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -129,12 +408,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547041079112</updated>
-      <workItem from="1547041081399" duration="1322000" />
+      <workItem from="1547041081399" duration="3628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1322000" />
+    <option name="totallyTimeSpent" value="3628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -168,12 +447,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="525">
+          <caret line="234" column="142" selection-start-line="234" selection-start-column="142" selection-end-line="234" selection-end-column="142" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#contain#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#1;n#div#2;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#h3#0;n#div#0;n#a#0;n#div#4;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
