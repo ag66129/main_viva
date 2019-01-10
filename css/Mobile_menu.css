@@ -359,5 +359,16 @@
         clip: rect(128px, 9999px, 28px, 0);
     }
 }
+@media(max-width:55em){
+.moblogo{
+    justify-content:center;
+    display: block;
+    margin: auto;
+}
+}
 
-
+@media(min-width:55em){
+    .moblogo{
+        display: none;
+    }
+    }

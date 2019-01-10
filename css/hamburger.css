@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@media screen and (max-width:55em) {
 p {
   font-size: 20px;
   /* line-height: 28px; */
@@ -48,14 +49,15 @@ h1 {
   line-height: 44px;
   text-align: center;
   margin-bottom: 18px;
-}
-@media (min-width: 500px) {
+}}
+/* @media (min-width: 55em) {
   h1 {
     font-size: 60px;
     line-height: 64px;
   }
-}
+} */
 
+@media screen and (max-width:55em) {
 h3 {
   font-size: 24px;
   font-weight: normal;
@@ -72,16 +74,17 @@ ul li {
   cursor: pointer;
   padding: 6px 20px;
   font-size: 5vh;
-}
-@media (min-width: 55em){
+}}
+/* @media (min-width: 55em){
   .menu-toggle{
     display: none;
   }
   #navbar{
     display: none;
   }
-}
+} */
 
+@media screen and (max-width:55em) {
 .menu-toggle {
   opacity: 0.6;
   background-color: transparent;
@@ -285,7 +288,7 @@ article {
   transition: -webkit-transform 0.2s 0.41s ease-out;
   transition: transform 0.2s 0.41s ease-out;
   transition: transform 0.2s 0.41s ease-out, -webkit-transform 0.2s 0.41s ease-out;
-}
+}}
 
 @-webkit-keyframes menu-animation {
   0% {
@@ -363,6 +366,7 @@ article {
   }
 }
 
+@media screen and (max-width:55em) {
 .forabout,
 .forlback,
 .forcolamb,
@@ -558,14 +562,15 @@ article {
 
 .forsponserus>div>.menu-toggle:hover {
   background-color: red;
-}
+}}
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:55em) {
   .forsponserus>div>.menu-toggle {
     left: -35%;
   }
 }
 
+@media screen and (max-width:55em) {
 .forcontact::-webkit-scrollbar {
   display: none;
 }
@@ -593,9 +598,9 @@ article {
 .phone>div,
 .add>div {
   padding: 20px;
-}
+}}
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:55em) {
   .forcontact>div {
     width: 80%;
     padding-top: 20px;
@@ -619,6 +624,7 @@ article {
   }
 }
 
+@media screen and (max-width:55em) {
 .forevents {
   position: absolute;
   left: -100%;
@@ -690,7 +696,7 @@ article {
 
 .point {
   pointer-events: none;
-}
+}}
 /* 
 a.animated-button:link, a.animated-button:visited {
   position: relative;
