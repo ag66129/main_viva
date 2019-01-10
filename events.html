@@ -6,9 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Events</title>
 		<meta name="description" content="Events" />
-		<meta name="keywords" content="" />
-		<meta name="author" content="Events" />
-		<link rel="stylesheet" type="text/css" href="css/events.css" />
+	<link rel="shortcut icon" href="images/viva_original.png" />
+	<link rel="stylesheet" type="text/css" href="css/events.css" />
+	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
 		<script>
 		document.documentElement.className = "js";
 		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
@@ -16,7 +16,27 @@
 		</script>
 		<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
 	</head>
-		<body style="overflow-y: hidden; overflow-x: hidden">
+		<body onload="load()" style="overflow-y: hidden; overflow-x: hidden">
+
+
+		<!--################### LODER ###############3-->
+
+
+		<div id="loader" class="circ">
+			<div class="load">Loading . . . </div>
+			<div class="hands"></div>
+			<div class="body"></div>
+			<div class="head">
+				<div class="eye"></div>
+			</div>
+		</div>
+
+
+
+
+
+
+
 		<svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
 				<title>arrow</title>
@@ -229,19 +249,19 @@
 					<h3 class="content__title">DANCE</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regdance.html" class="buttons">
+						<a href="forms/regdance.html" class="buttons">
 							<button class="btn-hover color">MUDRA<br>[SOLO CLASSICAL]</button>
 						</a>
-						<a href="regdance.html" class="buttons">
+						<a href="forms/regdance.html" class="buttons">
 							<button class="btn-hover color">LET'S TANGLE<br>[DUET DANCE]</button>
 						</a>
-						<a href="regdance.html" class="buttons">
+						<a href="forms/regdance.html" class="buttons">
 							<button class="btn-hover color">FACE-OFF<br>[DANCE BATTLE]</button>
 						</a>
-						<a href="regdance.html" class="buttons">
+						<a href="forms/regdance.html" class="buttons">
 							<button class="btn-hover color">PUMP IT UP<br>[SOLO WESTERN]</button>
 						</a>
-						<a href="regdance.html" class="buttons">
+						<a href="forms/regdance.html" class="buttons">
 							<button class="btn-hover color">RAZZMATAZ<br>[GROUP DANCE]</button>
 						</a>
 
@@ -252,13 +272,13 @@
 					<h3 class="content__title">DRAMATICS</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regdrama.html" class="buttons">
+						<a href="forms/regdrama.html" class="buttons">
 							<button class="btn-hover color">RANGSHALA<br>[STAGE PLAY]</button>
 						</a>
-						<a href="regdrama.html" class="buttons">
+						<a href="forms/regdrama.html" class="buttons">
 							<button class="btn-hover color">SWAYAM<br>[MONO ACTING]</button>
 						</a>
-						<a href="regdrama.html" class="buttons">
+						<a href="forms/regdrama.html" class="buttons">
 							<button class="btn-hover color">MUKH ABHINAYA<br>[MIME ACT]</button>
 						</a>
 
@@ -270,10 +290,10 @@
 					<h3 class="content__title">LIFE 'N' STYLE</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regvogue.html" class="buttons">
+						<a href="forms/regvogue.html" class="buttons">
 							<button class="btn-hover color">VOGUE</button>
 						</a>
-						<a href="regprincess.html" class="buttons">
+						<a href="forms/regprincess.html" class="buttons">
 							<button class="btn-hover color">CAMPUS PRINCESS</button>
 						</a>
 
@@ -284,19 +304,19 @@
 					<h3 class="content__title">ART AND CRAFT</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regart.html" class="buttons">
+						<a href="forms/regart.html" class="buttons">
 							<button class="btn-hover color">OKIDOKI-FACE<br>PAINTING</button>
 						</a>
-						<a href="regart.html" class="buttons">
+						<a href="forms/regart.html" class="buttons">
 							<button class="btn-hover color">TATOO TALES<br>[TATOO MAKING]</button>
 						</a>
-						<a href="regart.html" class="buttons">
+						<a href="forms/regart.html" class="buttons">
 							<button class="btn-hover color">RANGEELA<br>[WATER PAINTING]</button>
 						</a>
-						<a href="regart.html" class="buttons">
+						<a href="forms/regart.html" class="buttons">
 							<button class="btn-hover color">CONTRASTO<br>[BLACK & WHITE PAINTING]</button>
 						</a>
-						<a href="regart.html" class="buttons">
+						<a href="forms/regart.html" class="buttons">
 							<button class="btn-hover color">INK THE TEE<br>[T-SHIRT DESIGNING]</button>
 						</a>
 
@@ -307,25 +327,25 @@
 					<h3 class="content__title">MUSIC</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">SWARANJALI<br>[SOLO INDIAN]</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">MESCOLANZA<br>[MEDLEY]</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">ANTAKSHRI</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">VERISMO<br>[INSTRUMENTAL]</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">SUR SANGAM<br>[DUET SINGING]</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">SOLENDIOUS<br>[ENGLISH SOLO]</button>
 						</a>
-						<a href="regmusic.html" class="buttons">
+						<a href="forms/regmusic.html" class="buttons">
 							<button class="btn-hover color">RAP BATTLE</button>
 						</a>
 
@@ -338,10 +358,10 @@
 					<h3 class="content__title">GAMING</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="reggame.html" class="buttons">
+						<a href="forms/reggame.html" class="buttons">
 							<button class="btn-hover color">MINI MILITIA</button>
 						</a>
-						<a href="reggame.html" class="buttons">
+						<a href="forms/reggame.html" class="buttons">
 							<button class="btn-hover color">FIFA</button>
 						</a>
 
@@ -352,7 +372,7 @@
 					<h3 class="content__title">NUKKAD NATAK</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="reghunkaar.html" class="buttons">
+						<a href="forms/reghunkaar.html" class="buttons">
 							<button class="btn-hover color">HUNKAAR<br>[STREET PLAY]</button>
 						</a>
 					</div>
@@ -362,7 +382,7 @@
 					<h3 class="content__title">FLICKER-FILM-MAKING</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regflick.html" class="buttons">
+						<a href="forms/regflick.html" class="buttons">
 							<button class="btn-hover color">FLICKER-FILM-MAKING</button>
 						</a>
 
@@ -373,7 +393,7 @@
 					<h3 class="content__title">SAHYOG-SOCIAL CAUSE</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regsahyog.html" class="buttons">
+						<a href="forms/regsahyog.html" class="buttons">
 							<button class="btn-hover color">SAHYOG-SOCIAL CAUSE</button>
 						</a>
 
@@ -384,7 +404,7 @@
 					<h3 class="content__title">SPOTLIGHT-OPEN MIC</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="Regopenmic.html" class="buttons">
+						<a href="forms/Regopenmic.html" class="buttons">
 							<button class="btn-hover color">OPEN MIC</button>
 						</a>
 
@@ -395,7 +415,7 @@
 					<h3 class="content__title">BAMBOOZLED-ENTERTAINMENT QUIZ</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regbamboozled.html" class="buttons">
+						<a href="forms/regbamboozled.html" class="buttons">
 							<button class="btn-hover color">QUIZ</button>
 						</a>
 
@@ -406,7 +426,7 @@
 					<h3 class="content__title">IPL AUCTION 3.O</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regipl.html" class="buttons">
+						<a href="forms/regipl.html" class="buttons">
 							<button class="btn-hover color">AUCTION</button>
 						</a>
 
@@ -427,7 +447,7 @@
 					<h3 class="content__title">MASTER CHEF</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regchef.html" class="buttons">
+						<a href="forms/regchef.html" class="buttons">
 							<button class="btn-hover color">MASTER</button>
 						</a>
 					</div>
@@ -437,7 +457,7 @@
 					<h3 class="content__title">PHOTOGRAPHY</h3>
 					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
 					<div class="content__text">
-						<a href="regphoto.html" class="buttons">
+						<a href="forms/regphoto.html" class="buttons">
 							<button class="btn-hover color">PHOTOGRAPHY</button>
 						</a>
 					</div>
@@ -457,5 +477,13 @@
 		<script src="js/event2.js"></script>
 		<script src="js/event3.js"></script>
 		<script src="js/event4.js"></script>
+
+
+		<script>
+            var x = document.getElementById("loader");
+            function load() {
+                x.style.display="none";
+            }
+		</script>
 	</body>
 </html>

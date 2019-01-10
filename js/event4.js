@@ -111,7 +111,7 @@
             // And also the transforms needed per position.
             // We have 5 different possible positions for a slide: center, bottom right, top left and outside the viewport (top left or bottom right).
             this.calcTransforms();
-            // Init/Bind events.
+            // Init/Bind sponser.
             this.initEvents();
         }
         // Gets the size of the image wrap.
@@ -139,7 +139,7 @@
                 {x: -1*(winsize.width/2 - this.width/2 - winsize.width*0.075), y: 0, rotation: 0}
             ];
         }
-        // Init events:
+        // Init sponser:
         // Mouseevents for mousemove/tilt/scale on the current image, and window resize.
         initEvents() {
             this.mouseenterFn = () => {
@@ -412,7 +412,7 @@
             // Set the current/next/previous slides.
             this.render();
             this.currentSlide.showTexts(false);
-            // Init/Bind events.
+            // Init/Bind sponser.
             this.initEvents();
         }
         render() {

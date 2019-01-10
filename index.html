@@ -18,56 +18,232 @@
 		<link rel="stylesheet" type="text/css" href="css/cinderBG.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="css/hamburger.css" /> -->
 		<link rel="stylesheet" type="text/css" href="css/Mobile_menu.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <!-- css for loader -->
+        <!--<link rel="stylesheet" type="text/css" href="css/mainloaderdemo.css" />-->
+        <!--<link rel="stylesheet" type="text/css" href="css/mainloader.css" />-->
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
-	<body class="demo-2 loading" style="background-image: url(images/Artboard.jpg);background-size: 100% 100%;background-repeat: no-repeat">
-		<main>
-			<div id='stars' style="position: absolute;z-index: 12345"></div>
-			<div id='stars2' style="position: absolute;z-index: 12345"></div>
-			<div id='stars3' style="position: absolute;z-index: 12345"></div>
+	<body onload="load()" class="demo-2 " style="background-image: url(images/Artboard.png);background-size:cover;background-position: center; ;background-repeat: no-repeat">
 
-
-			<!-- <main> -->
-				<!-- <div class="message"></div> -->
-				<div class="content content--fixed">
-					<!-- <header class="codrops-header">
-						<div class="codrops-links">
-							<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GlitchSlideshow/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-							<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34419" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-						</div>
-						<h1 class="codrops-header__title"></h1>
-						<span class="info"></span>
-					</header>
-					<nav class="demos">
-						<a class="demo" href="index.html"></a>
-						<a class="demo demo--current" href="index2.html"></a>
-						<a href="https://github.com/codrops/GridMenu" class="github"></a>
-					</nav> -->
-					<button class="menu-trigger glitch" style="font-size: 200%">+ Menu</button>
+	<contain id="loader">
+		<div class="page">
+			<div class="page-content">
+				<i class="dark-bg"></i>
+				<div class="layers-rock-last">
+					<i class="star-0"></i>
+					<i class="star-1"></i>
+					<i class="star-2"></i>
+					<i class="star-3"></i>
+					<i class="star-4"></i>
+					<i class="star-5"></i>
+					<i class="star-6"></i>
+					<i class="star-7"></i>
+					<i class="star-8"></i>
+					<i class="star-9"></i>
+					<i class="star-10"></i>
+					<i class="star-11"></i>
+					<i class="star-12"></i>
+					<div class="rock rock-1"><i class="dark-bg"></i></div>
+					<div class="rock rock-2"><i class="dark-bg"></i></div>
+					<div class="rock rock-3"><i class="dark-bg"></i></div>
+					<div class="rock rock-4"><i class="dark-bg"></i></div>
+					<div class="rock-bg"><i class="dark-bg"></i></div>
 				</div>
+				<div class="layers-trees-3">
+					<div class="tree-1"><i class="dark-bg"></i></div>
+					<div class="tree-2"><i class="dark-bg"></i></div>
+					<div class="tree-3"><i class="dark-bg"></i></div>
+					<div class="tree-4"><i class="dark-bg"></i></div>
+					<div class="tree-5"><i class="dark-bg"></i></div>
+					<div class="tree-6"><i class="dark-bg"></i></div>
+				</div>
+				<div class="layers-trees-2">
+					<div class="tree-1">
+						<i class="dark-bg"><i class="i-first"></i><i class="i-second"></i></i>
+						<i class="i-first"></i><i class="i-second"></i>
+					</div>
+					<div class="tree-2">
+						<i class="dark-bg"><i class="i-first"></i><i class="i-second"></i></i>
+						<i class="i-first"></i><i class="i-second"></i>
+					</div>
+					<div class="tree-3">
+						<i class="dark-bg"><i class="i-first"></i><i class="i-second"></i></i>
+						<i class="i-first"></i><i class="i-second"></i>
+					</div>
+					<div class="tree-4">
+						<i class="dark-bg"><i class="i-first"></i><i class="i-second"></i></i>
+						<i class="i-first"></i><i class="i-second"></i>
+					</div>
+				</div>
+				<div class="layers-rock-first">
+					<i class="rock-bg"></i>
+					<div class="rock-left-content">
+						<i class="rock-2">
+							<i class="rock-top"></i>
+							<i class="rock-left"></i>
+						</i>
+						<i class="rock-1">
+							<i class="rock-left"></i>
+							<i class="rock-right"></i>
+							<i class="rock-center"></i>
+						</i>
+						<i class="rock-3">
+							<i class="rock-left"></i>
+							<i class="rock-top">
+								<i class="rock-top-right"></i>
+							</i>
+						</i>
+					</div>
+					<div class="rock-right-content">
+						<i class="rock-1">
+							<i class="rock-top-back"></i>
+							<i class="rock-top-front"></i>
+							<i class="rock-bottom-back"></i>
+							<i class="rock-bottom-front"></i>
+						</i>
+						<i class="rock-2">
+							<i class="rock-bottom"></i>
+							<i class="rock-bottom-front"></i>
+							<i class="rock-top"></i>
+						</i>
+					</div>
+				</div>
+				<div class="layers-kylo">
+					<div class="kylo">
+						<div class="kylo-head">
+							<i class="head-bg"></i>
+							<i class="head-content"><i class="head-content-mask"></i></i>
+							<i class="head">
+								<i class="head-last"></i>
+								<i class="head-light"></i>
+								<i class="head-second"></i>
+								<i class="head-first"></i>
+								<i class="head-mask">
+									<i class="head-mask-top"></i>
+									<i class="head-mask-bottom"><i class="head-mask-bottom-place"></i></i>
+								</i>
+							</i>
+						</div>
+						<div class="kylo-body-top">
+							<i class="kylo-body-top-black"></i>
+							<i class="kylo-body-top-shoulders">
+								<i class="shoulders-left"></i>
+								<i class="shoulders-right"></i>
+							</i>
+						</div>
+						<div class="kylo-body-bottom">
+							<i class="kylo-body-bottom-black"></i>
+						</div>
+						<i class="kylo-hand-left">
+							<i class="hand-arm">
+								<i class="hand-last">
+									<i class="hand-finger-right"></i>
+									<i class="lightsaber">
+										<i class="lightsaber-light-bg"></i>
+										<i class="lightsaber-cross-content">
+											<i class="lightsaber-cross-light">
+												<i class="light-item-1"></i>
+												<i class="light-item-2"></i>
+											</i>
+											<i class="lightsaber-cross"></i>
+										</i>
+										<i class="lightsaber-light">
+											<i class="light-item-1"></i>
+											<i class="light-item-2"></i>
+											<i class="light-item-3"></i>
+											<i class="light-item-4"></i>
+											<i class="light-item-5"></i>
+											<i class="light-item-6"></i>
+											<i class="light-item-7"></i>
+											<i class="light-item-8"></i>
+											<i class="light-item-9"></i>
+										</i>
+									</i>
+								</i>
+							</i>
+						</i>
+						<i class="kylo-hand-right">
+							<i class="hand-arm">
+								<i class="hand-last">
+									<i class="hand-finger-left"></i>
+								</i>
+							</i>
+						</i>
+					</div>
+				</div>
+				<div class="layers-trees-1">
+					<div class="tree-left-content">
+						<i class="i-right-top"></i>
+						<i class="i-right-middle"></i>
+						<i class="i-right-bottom"></i>
+						<i class="limb">
+							<i class="limb-bottom"></i>
+							<i class="limb-1">
+								<i class="limb-2">
+									<i class="limb-3-second"></i>
+									<i class="limb-3">
+										<i class="limb-4">
+											<i class="limb-5-second"></i>
+											<i class="limb-5-first"></i>
+										</i>
+									</i>
+								</i>
+							</i>
+						</i>
+					</div>
+					<div class="tree-right-content">
+						<i class="i-left-top">
+							<i class="top-limb">
+								<i class="top-limb-1">
+									<i class="top-limb-2">
+										<i class="top-limb-3"></i>
+									</i>
+								</i>
+							</i>
+						</i>
+						<i class="i-left-bottom">
+							<i class="bottom-limb">
+								<i class="bottom-limb-1">
+									<i class="bottom-limb-2">
+										<i class="bottom-limb-3">
+											<i class="bottom-limb-4"></i>
+										</i>
+									</i>
+								</i>
+							</i>
+						</i>
+						<i class="center-limb">
+							<i class="center-limb-1">
+								<i class="center-limb-2"></i>
+							</i>
+						</i>
+						<i class="i-right-top"></i>
+						<i class="i-right-bottom"><i></i></i>
+					</div>
+				</div>
+			</div>
+			<div class="page-deco"></div>
+		</div>
+	</contain>
 
-				<div id="content-1" class="content content--switch content--switch-current"></div>
-				<!--<div id="content-2" class="content content&#45;&#45;switch">-->
-					<!--<h2 class="content__title">Beach</h2>-->
-					<!--<div class="content__subtitle">Lift your spirits</div>-->
-				<!--</div>-->
-				<!--<div id="content-3" class="content content&#45;&#45;switch">-->
-					<!--<h2 class="content__title">Desert</h2>-->
-					<!--<div class="content__subtitle">Find yourself</div>-->
-				<!--</div>-->
-				<!--<div id="content-4" class="content content&#45;&#45;switch">-->
-					<!--<h2 class="content__title">Ocean</h2>-->
-					<!--<div class="content__subtitle">Uncover beauty</div>-->
-				<!--</div>-->
-				<!--<div id="content-5" class="content content&#45;&#45;switch">-->
-					<!--<h2 class="content__title">Jungle</h2>-->
-					<!--<div class="content__subtitle">Feel nature</div>-->
-				<!--</div>-->
-				<!--<div id="content-6" class="content content&#45;&#45;switch">-->
-					<!--<h2 class="content__title">Mountains</h2>-->
-					<!--<div class="content__subtitle">Explore your limits</div>-->
-				<!--</div>-->
+
+	<main>
+
+		<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>
+
+		<div id='stars' style="position: absolute;z-index: 1"></div>
+		<div id='stars2' style="position: absolute;z-index: 1"></div>
+		<div id='stars3' style="position: absolute;z-index: 1"></div>
+
+        <div class="content content--fixed">
+
+            <button class="menu-trigger glitch" style="font-size: 200%">+ Menu</button>
+        </div>
+
+        <div id="content-1" class="content content--switch content--switch-current"></div>
 				<nav class="grim">
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--1"></div>
@@ -98,8 +274,8 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--6"></div>
-						<a href="gallery.html" style="width: 100%;height: 100%;">
-							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/gallery.png);background-size: cover;"></div>
+						<a href="contact.html" style="width: 100%;height: 100%;">
+							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/contact.png);background-size: cover;"></div>
 						</a>						<a href="#content-2" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
 								<h3 class="grim__item-title"></h3>
@@ -110,8 +286,8 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--7"></div>
-						<a href="team.html" style="width: 100%;height: 100%;">
-							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/team.png);background-size: cover;"></div>
+						<a href="sponser.html" style="width: 100%;height: 100%;">
+							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/sponsers.png);background-size: cover;"></div>
 						</a>						<a href="#content-3" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
 								<h3 class="grim__item-title"></h3>
@@ -122,8 +298,8 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--8"></div>
-						<a href="events.html" style="width: 100%;height: 100%;">
-							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/event.png);background-size: cover;"></div>
+						<a href="gallery.html" style="width: 100%;height: 100%;">
+							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/gallery.png);background-size: cover;"></div>
 						</a>						<a href="#content-4" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
 								<h3 class="grim__item-title"></h3>
@@ -134,8 +310,8 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--9"></div>
-						<a href="sponser.html" style="width: 100%;height: 100%;">
-							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/sponsers.png);background-size: cover;"></div>
+						<a href="team.html" style="width: 100%;height: 100%;">
+							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/team.png);background-size: cover;"></div>
 						</a>
 						<a href="#content-5" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
@@ -147,8 +323,8 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--10"></div>
-						<a href="contact.html" style="width: 100%;height: 100%;">
-							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/contact.png);background-size: cover;"></div>
+						<a href="events.html" style="width: 100%;height: 100%;">
+							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/event.png);background-size: cover;"></div>
 						</a>
 						<a href="#content-6" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
@@ -162,11 +338,12 @@
 				<button class="menu-toggle" id="btn" onclick="menu()"></button>
 				<nav id="navbar">
 					<ul class="menu">
-						<li data-text="Home" onclick="openhome()">Home</li>
-						<li data-text="About" onclick="openabout()">About</li>
-						<li data-text="Past" onclick="openlback()">Past</li>
-						<li data-text="Events" onclick="openevent()">Events</li>
-						<li data-text="Contact" onclick="opencontact()">Contact</li>
+						<a href="index.html"><li data-text="Home" onclick="openhome()">Home</li></a>
+						<a href="gallery.html"><li data-text="Gallery" onclick="openabout()">Gallery</li></a>
+						<a href="sponser.html"><li data-text="Sponsers" onclick="openlback()">Sponsers</li></a>
+						<a href="events.html"><li data-text="Events" onclick="openevent()">Events</li></a>
+						<a href="team.html"><li data-text="Team" onclick="openteam()">Team</li></a>
+						<a href="team.html"><li data-text="Contact" onclick="opencontact()">Contact</li></a>
 					</ul>
 				</nav>
 				<script>
@@ -181,99 +358,106 @@
 					})
 				</script> -->
 		</main>
-			<script type="text/javascript">
+			<!--<script type="text/javascript">-->
 
-                var about = document.getElementById("about");
-                var home = document.getElementById("home");
-                var nav = document.getElementById("navbar");
-                var event = document.getElementById("event")
-                var contact = document.getElementById("contact");
-                var button = document.getElementById("btn");
-                var f = 0, t = 0;
+                <!--var about = document.getElementById("about");-->
+                <!--var home = document.getElementById("home");-->
+                <!--var nav = document.getElementById("navbar");-->
+                <!--var event = document.getElementById("event")-->
+                <!--var contact = document.getElementById("contact");-->
+                <!--var button = document.getElementById("btn");-->
+                <!--var f = 0, t = 0;-->
 
-                function menu() {
-                    if (t == 1){
-                        t = 0;
-                        button.click();
-                        return;
-                    }
-                    if (f == 0) {
-                        if (home.style.display === "none") {
-                            home.style.display = "block";
-                        } else {
-                            home.style.display = "none";
-                        }
-                    }
-                    if (f == 1) {
-                        if (about.style.left === "-100%") {
-                            about.style.left = 0 + "px";
-                        } else {
-                            about.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 2) {
-                        if (event.style.left === "-100%") {
-                            event.style.left = 0 + "px";
-                        } else {
-                            event.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 3) {
-                        if (contact.style.left === "-100%") {
-                            contact.style.left = 0 + "px";
-                        } else {
-                            contact.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 4) {
-                        if (lback.style.left === "-100%") {
-                            lback.style.left = 0 + "px";
-                        } else {
-                            lback.style.left = -100 + "%";
-                        }
-                    }
-                }
+                <!--function menu() {-->
+                    <!--if (t == 1){-->
+                        <!--t = 0;-->
+                        <!--button.click();-->
+                        <!--return;-->
+                    <!--}-->
+                    <!--if (f == 0) {-->
+                        <!--if (home.style.display === "none") {-->
+                            <!--home.style.display = "block";-->
+                        <!--} else {-->
+                            <!--home.style.display = "none";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 1) {-->
+                        <!--if (about.style.left === "-100%") {-->
+                            <!--about.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--about.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 2) {-->
+                        <!--if (event.style.left === "-100%") {-->
+                            <!--event.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--event.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 3) {-->
+                        <!--if (contact.style.left === "-100%") {-->
+                            <!--contact.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--contact.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 4) {-->
+                        <!--if (lback.style.left === "-100%") {-->
+                            <!--lback.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--lback.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                <!--}-->
 
-                function openhome() {
-                    f = 0;
-                    t = 1;
-                    home.style.display = "block";
-                    button.click();
-                }
+                <!--function openhome() {-->
+                    <!--f = 0;-->
+                    <!--t = 1;-->
+                    <!--home.style.display = "block";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openabout() {
-                    f = 1;
-                    t = 1;
-                    about.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openabout() {-->
+                    <!--f = 1;-->
+                    <!--t = 1;-->
+                    <!--about.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openevent() {
-                    f = 2;
-                    t = 1;
-                    event.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openevent() {-->
+                    <!--f = 2;-->
+                    <!--t = 1;-->
+                    <!--event.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openlback() {
-                    f = 4;
-                    t = 1;
-                    lback.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openlback() {-->
+                    <!--f = 4;-->
+                    <!--t = 1;-->
+                    <!--lback.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function opencontact() {
-                    f = 3;
-                    t = 1;
-                    contact.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function opencontact() {-->
+                    <!--f = 3;-->
+                    <!--t = 1;-->
+                    <!--contact.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-			</script>
+			<!--</script>-->
 
 			<script src="js/menu3.js"></script>
 		<script src="js/menu4.js"></script>
 		<script src="js/menu1.js"></script>
 		<script src="js/menu2.js"></script>
+
+		<script>
+			var x = document.getElementById("loader");
+			function load() {
+				x.style.display="none";
+            }
+		</script>
 	</body>
 </html>
