@@ -112,7 +112,7 @@ main {
 .codrops-header__title {
 	font-size: 1em;
 	font-weight: bold;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 }
 
@@ -147,6 +147,7 @@ main {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding-bottom: 10rem;
+	padding-top: 4em;
 }
 
 .grid__item {
