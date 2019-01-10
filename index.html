@@ -26,7 +26,7 @@
         <!--<link rel="stylesheet" type="text/css" href="css/mainloader.css" />-->
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
-	<body onload="load()" class="demo-2 " style="background-image: url(images/Artboard.png);background-size: 100% 100%;background-repeat: no-repeat">
+	<body onload="load()" class="demo-2 " style="background-image: url(images/Artboard.png);background-size:cover;background-position: center; ;background-repeat: no-repeat">
 
 	<contain id="loader">
 		<div class="page">
@@ -234,49 +234,16 @@
 
 		<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>
 
-		<div id='stars' style="position: absolute;z-index: 12345"></div>
-		<div id='stars2' style="position: absolute;z-index: 12345"></div>
-		<div id='stars3' style="position: absolute;z-index: 12345"></div>
-        <!-- <main> -->
-        <!-- <div class="message"></div> -->
+		<div id='stars' style="position: absolute;z-index: 1"></div>
+		<div id='stars2' style="position: absolute;z-index: 1"></div>
+		<div id='stars3' style="position: absolute;z-index: 1"></div>
+
         <div class="content content--fixed">
-            <!-- <header class="codrops-header">
-                <div class="codrops-links">
-                    <a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GlitchSlideshow/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-                    <a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=34419" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-                </div>
-                <h1 class="codrops-header__title"></h1>
-                <span class="info"></span>
-            </header>
-            <nav class="demos">
-                <a class="demo" href="team.html"></a>
-                <a class="demo demo--current" href="index2.html"></a>
-                <a href="https://github.com/codrops/GridMenu" class="github"></a>
-            </nav> -->
+
             <button class="menu-trigger glitch" style="font-size: 200%">+ Menu</button>
         </div>
 
         <div id="content-1" class="content content--switch content--switch-current"></div>
-        <!--<div id="content-2" class="content content&#45;&#45;switch">-->
-        <!--<h2 class="content__title">Beach</h2>-->
-        <!--<div class="content__subtitle">Lift your spirits</div>-->
-        <!--</div>-->
-        <!--<div id="content-3" class="content content&#45;&#45;switch">-->
-        <!--<h2 class="content__title">Desert</h2>-->
-        <!--<div class="content__subtitle">Find yourself</div>-->
-        <!--</div>-->
-        <!--<div id="content-4" class="content content&#45;&#45;switch">-->
-        <!--<h2 class="content__title">Ocean</h2>-->
-        <!--<div class="content__subtitle">Uncover beauty</div>-->
-        <!--</div>-->
-        <!--<div id="content-5" class="content content&#45;&#45;switch">-->
-        <!--<h2 class="content__title">Jungle</h2>-->
-        <!--<div class="content__subtitle">Feel nature</div>-->
-        <!--</div>-->
-        <!--<div id="content-6" class="content content&#45;&#45;switch">-->
-        <!--<h2 class="content__title">Mountains</h2>-->
-        <!--<div class="content__subtitle">Explore your limits</div>-->
-        <!--</div>-->
 				<nav class="grim">
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--1"></div>
@@ -371,11 +338,12 @@
 				<button class="menu-toggle" id="btn" onclick="menu()"></button>
 				<nav id="navbar">
 					<ul class="menu">
-						<li data-text="Home" onclick="openhome()">Home</li>
-						<li data-text="About" onclick="openabout()">About</li>
-						<li data-text="Past" onclick="openlback()">Past</li>
-						<li data-text="Events" onclick="openevent()">Events</li>
-						<li data-text="Contact" onclick="opencontact()">Contact</li>
+						<a href="index.html"><li data-text="Home" onclick="openhome()">Home</li></a>
+						<a href="gallery.html"><li data-text="Gallery" onclick="openabout()">Gallery</li></a>
+						<a href="sponser.html"><li data-text="Sponsers" onclick="openlback()">Sponsers</li></a>
+						<a href="events.html"><li data-text="Events" onclick="openevent()">Events</li></a>
+						<a href="team.html"><li data-text="Team" onclick="openteam()">Team</li></a>
+						<a href="team.html"><li data-text="Contact" onclick="opencontact()">Contact</li></a>
 					</ul>
 				</nav>
 				<script>
@@ -384,95 +352,95 @@
                     });
 				</script>
 		</main>
-			<script type="text/javascript">
+			<!--<script type="text/javascript">-->
 
-                var about = document.getElementById("about");
-                var home = document.getElementById("home");
-                var nav = document.getElementById("navbar");
-                var event = document.getElementById("event")
-                var contact = document.getElementById("contact");
-                var button = document.getElementById("btn");
-                var f = 0, t = 0;
+                <!--var about = document.getElementById("about");-->
+                <!--var home = document.getElementById("home");-->
+                <!--var nav = document.getElementById("navbar");-->
+                <!--var event = document.getElementById("event")-->
+                <!--var contact = document.getElementById("contact");-->
+                <!--var button = document.getElementById("btn");-->
+                <!--var f = 0, t = 0;-->
 
-                function menu() {
-                    if (t == 1){
-                        t = 0;
-                        button.click();
-                        return;
-                    }
-                    if (f == 0) {
-                        if (home.style.display === "none") {
-                            home.style.display = "block";
-                        } else {
-                            home.style.display = "none";
-                        }
-                    }
-                    if (f == 1) {
-                        if (about.style.left === "-100%") {
-                            about.style.left = 0 + "px";
-                        } else {
-                            about.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 2) {
-                        if (event.style.left === "-100%") {
-                            event.style.left = 0 + "px";
-                        } else {
-                            event.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 3) {
-                        if (contact.style.left === "-100%") {
-                            contact.style.left = 0 + "px";
-                        } else {
-                            contact.style.left = -100 + "%";
-                        }
-                    }
-                    if (f == 4) {
-                        if (lback.style.left === "-100%") {
-                            lback.style.left = 0 + "px";
-                        } else {
-                            lback.style.left = -100 + "%";
-                        }
-                    }
-                }
+                <!--function menu() {-->
+                    <!--if (t == 1){-->
+                        <!--t = 0;-->
+                        <!--button.click();-->
+                        <!--return;-->
+                    <!--}-->
+                    <!--if (f == 0) {-->
+                        <!--if (home.style.display === "none") {-->
+                            <!--home.style.display = "block";-->
+                        <!--} else {-->
+                            <!--home.style.display = "none";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 1) {-->
+                        <!--if (about.style.left === "-100%") {-->
+                            <!--about.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--about.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 2) {-->
+                        <!--if (event.style.left === "-100%") {-->
+                            <!--event.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--event.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 3) {-->
+                        <!--if (contact.style.left === "-100%") {-->
+                            <!--contact.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--contact.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                    <!--if (f == 4) {-->
+                        <!--if (lback.style.left === "-100%") {-->
+                            <!--lback.style.left = 0 + "px";-->
+                        <!--} else {-->
+                            <!--lback.style.left = -100 + "%";-->
+                        <!--}-->
+                    <!--}-->
+                <!--}-->
 
-                function openhome() {
-                    f = 0;
-                    t = 1;
-                    home.style.display = "block";
-                    button.click();
-                }
+                <!--function openhome() {-->
+                    <!--f = 0;-->
+                    <!--t = 1;-->
+                    <!--home.style.display = "block";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openabout() {
-                    f = 1;
-                    t = 1;
-                    about.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openabout() {-->
+                    <!--f = 1;-->
+                    <!--t = 1;-->
+                    <!--about.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openevent() {
-                    f = 2;
-                    t = 1;
-                    event.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openevent() {-->
+                    <!--f = 2;-->
+                    <!--t = 1;-->
+                    <!--event.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function openlback() {
-                    f = 4;
-                    t = 1;
-                    lback.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function openlback() {-->
+                    <!--f = 4;-->
+                    <!--t = 1;-->
+                    <!--lback.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-                function opencontact() {
-                    f = 3;
-                    t = 1;
-                    contact.style.left = 0+"px";
-                    button.click();
-                }
+                <!--function opencontact() {-->
+                    <!--f = 3;-->
+                    <!--t = 1;-->
+                    <!--contact.style.left = 0+"px";-->
+                    <!--button.click();-->
+                <!--}-->
 
-			</script>
+			<!--</script>-->
 
 			<script src="js/menu3.js"></script>
 		<script src="js/menu4.js"></script>
