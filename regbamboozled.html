@@ -7,53 +7,56 @@
 		<link rel="stylesheet" type="text/css" href="css/register2.css" />
   </head>
   <body>
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+          onload="if(submitted) {window.location='payment.html';}"></iframe>
     <div class="content" style="background-color:black;">
-    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSc4wBP1gn_HYUqOSLsoK2Ie4ZZD5wWpknuV835tB0ibacD1fg/formResponse" target="_self" method="POST" id="mG61Hd">
+    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSc4wBP1gn_HYUqOSLsoK2Ie4ZZD5wWpknuV835tB0ibacD1fg/formResponse" onsubmit="submitted=true; target="_self" method="POST" id="mG61Hd">
 
       <div class="form__title">> BAMBOOZLED Registration</div>
 
       <div class="form__item">
-        <label class="form__label" for="firstname">name</label>
-        <input type="text" name="entry.307678961" class="form__input">
+        <label class="form__label" >name</label>
+        <input type="text" name="entry.307678961" class="form__input" required>
         <span class="form__placeholder">name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Email id</label>
-        <input type="text" name="entry.720230541" class="form__input">
+        <label class="form__label" >Email id</label>
+        <input type="text" name="entry.720230541" class="form__input" required>
         <span class="form__placeholder">Email id</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Contact number</label>
-        <input type="text" name="entry.1449309692" class="form__input">
+        <label class="form__label" >Contact number</label>
+        <input type="text" name="entry.1449309692" class="form__input" required>
         <span class="form__placeholder">Contact number</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">College/School name</label>
-        <input type="text" name="entry.1020168082" class="form__input">
+        <label class="form__label" >College/School name</label>
+        <input type="text" name="entry.1020168082" class="form__input" required>
         <span class="form__placeholder">College/School name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Team name</label>
-        <input type="text" name="entry.271746516" class="form__input">
+        <label class="form__label" >Team name</label>
+        <input type="text" name="entry.271746516" class="form__input" required>
         <span class="form__placeholder">Team name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Number of team members</label>
-        <input type="text" name="entry.1189417813" class="form__input">
+        <label class="form__label" >Number of team members</label>
+        <input type="text" name="entry.1189417813" class="form__input" required>
         <span class="form__placeholder">Number of team members</span>
       </div>
 
       <input type="hidden" name="entry.1569193815" jsname="L9xHkb" value="BAMBOOZLED">
 
       <div class="form__item">
-        <label class="form__label" for="firstname">Alternative mobile number</label>
-        <input type="text" name="entry.1040139112" class="form__input">
+        <label class="form__label" >Alternative mobile number</label>
+        <input type="text" name="entry.1040139112" class="form__input" required>
         <span class="form__placeholder">Alternative mobile number</span>
       </div>
 
       <div class="form__item">
-        <label class="form__label" for="firstname">Remarks</label>
-        <textarea name="entry.286105147" class="form__input"></textarea>
+        <label class="form__label" >Remarks</label>
+        <textarea name="entry.286105147" class="form__input" required></textarea>
         <span class="form__placeholder">Remarks</span>
       </div>
 

@@ -7,39 +7,43 @@
 		<link rel="stylesheet" type="text/css" href="css/register2.css" />
   </head>
   <body>
-    <div class="content" style="background-color:black;">
-    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSd3BX-RCYy7N_exr3QI7XDBvD3mfFAWYC-JEjhnjryXjpDQ3g/formResponse" target="_self" method="POST" id="mG61Hd">
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+          onload="if(submitted) {window.location='payment.html';}"></iframe>
+
+  <div class="content" style="background-color:black;">
+    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSd3BX-RCYy7N_exr3QI7XDBvD3mfFAWYC-JEjhnjryXjpDQ3g/formResponse" target="_self" method="POST" id="mG61Hd" onsubmit="submitted=true;">
 
       <div class="form__title">> ART 'N' CRAFT Registration</div>
 
       <div class="form__item">
-        <label class="form__label" for="firstname">name</label>
-        <input type="text" name="entry.989690419" class="form__input">
+        <label class="form__label" >name</label>
+        <input type="text" name="entry.989690419" class="form__input" required>
         <span class="form__placeholder">name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Email id</label>
-        <input type="text" name="entry.329680155" class="form__input">
+        <label class="form__label" >Email id</label>
+        <input type="text" name="entry.329680155" class="form__input" required>
         <span class="form__placeholder">Email id</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Contact number</label>
-        <input type="text" name="entry.2058140945" class="form__input">
+        <label class="form__label" >Contact number</label>
+        <input type="text" name="entry.2058140945" class="form__input" required>
         <span class="form__placeholder">Contact number</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">College name</label>
-        <input type="text" name="entry.785379220" class="form__input">
+        <label class="form__label" >College name</label>
+        <input type="text" name="entry.785379220" class="form__input" required>
         <span class="form__placeholder">College name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Team name</label>
-        <input type="text" name="entry.1013248456" class="form__input">
+        <label class="form__label" >Team name</label>
+        <input type="text" name="entry.1013248456" class="form__input" required>
         <span class="form__placeholder">Team name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Number of team members</label>
-        <input type="text" name="entry.1057798515" class="form__input">
+        <label class="form__label" >Number of team members</label>
+        <input type="text" name="entry.1057798515" class="form__input" required>
         <span class="form__placeholder">Number of team members</span>
       </div>
 
@@ -61,8 +65,8 @@
     </div>
 
       <div class="form__item">
-        <label class="form__label" for="firstname">Remarks</label>
-        <textarea name="entry.2075773517" class="form__input"></textarea>
+        <label class="form__label" >Remarks</label>
+        <textarea name="entry.2075773517" class="form__input" required></textarea>
         <span class="form__placeholder">Remarks</span>
       </div>
 

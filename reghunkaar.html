@@ -7,39 +7,42 @@
 		<link rel="stylesheet" type="text/css" href="css/register2.css" />
   </head>
   <body>
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+          onload="if(submitted) {window.location='payment.html';}"></iframe>
     <div class="content" style="background-color:black;">
-    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdhsRqrF6R_cMKzS0C8SkegwJK7dpy39HL4XwCF3y4swCbHbQ/formResponse" target="_self" method="POST" id="mG61Hd">
+    <form class="form" onsubmit="submitted=true" action="https://docs.google.com/forms/d/e/1FAIpQLSdhsRqrF6R_cMKzS0C8SkegwJK7dpy39HL4XwCF3y4swCbHbQ/formResponse" target="_self" method="POST" id="mG61Hd">
 
       <div class="form__title">> HUNKAAR, THE STREET PLAY Registration</div>
 
       <div class="form__item">
         <label class="form__label" for="firstname">name</label>
-        <input type="text" name="entry.1765948818" class="form__input">
+        <input type="text" name="entry.1765948818" class="form__input" required>
         <span class="form__placeholder">name</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">Email id</label>
-        <input type="text" name="entry.1374566034" class="form__input">
+        <input type="text" name="entry.1374566034" class="form__input" required>
         <span class="form__placeholder">Email id</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">Contact number</label>
-        <input type="text" name="entry.2058140945" class="form__input">
+        <input type="text" name="entry.2058140945" class="form__input" required>
         <span class="form__placeholder">Contact number</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">College name</label>
-        <input type="text" name="entry.1957930348" class="form__input">
+        <input type="text" name="entry.1957930348" class="form__input" required>
         <span class="form__placeholder">College name</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">Team name</label>
-        <input type="text" name="entry.1451423385" class="form__input">
+        <input type="text" name="entry.1451423385" class="form__input" required>
         <span class="form__placeholder">Team name</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">Number of team members</label>
-        <input type="text" name="entry.269257622" class="form__input">
+        <input type="text" name="entry.269257622" class="form__input" required>
         <span class="form__placeholder">Number of team members</span>
       </div>
 
@@ -52,7 +55,7 @@
 
       <div class="form__item">
         <label class="form__label" for="firstname">Remarks</label>
-        <textarea name="entry.1120337671" class="form__input"></textarea>
+        <textarea name="entry.1120337671" class="form__input" required></textarea>
         <span class="form__placeholder">Remarks</span>
       </div>
 
