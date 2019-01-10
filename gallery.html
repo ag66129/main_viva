@@ -8,10 +8,24 @@
     <title>Gallery</title>
 	<link rel="canonical" href="gallery.html" />
 	<link rel='stylesheet' id='contact-form-7-css' href='css/gallery1.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
 	<link rel="shortcut icon" href="images/viva_original.png" />
 
 </head>
-  <body style="overflow-x: hidden; overflow-y: hidden;height: 100%">
+  <body onload="load()" style="overflow-x: hidden; overflow-y: hidden;height: 100%">
+
+  <!--################### LODER ###############3-->
+
+
+  <div id="loader" class="circ">
+	  <div class="load">Loading . . . </div>
+	  <div class="hands"></div>
+	  <div class="body"></div>
+	  <div class="head">
+		  <div class="eye"></div>
+	  </div>
+  </div>
+
     <div class="page-loading" id="loading"></div>
 		<div class="page-container" id="main">
 			<main class="site-main page-home">
@@ -93,6 +107,13 @@
 		</div>
 		<link rel="stylesheet" href="css/gallery2.css">
 		<script type='text/javascript' src='js/gallery1.js'></script>
+
+		<script>
+			var x = document.getElementById("loader");
+			function load() {
+				x.style.display="none";
+			}
+		</script>
   </body>
 </html>
 

@@ -10,6 +10,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Abril+Fatface" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/sponser_demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/sponser_component.css" />
+	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
 
 		<script>
 			document.documentElement.className = 'js';
@@ -25,7 +26,24 @@
 			})();
 		</script>
 	</head>
-	<body class="loading">
+	<body onload="load()">
+
+
+	<!--################### LODER ###############3-->
+
+
+	<div id="loader" class="circ">
+		<div class="load">Loading . . . </div>
+		<div class="hands"></div>
+		<div class="body"></div>
+		<div class="head">
+			<div class="eye"></div>
+		</div>
+	</div>
+
+
+
+
 		<main>
 			<h1 style="text-align: center">Sponsers</h1>
 			<section class="content content--c4">
@@ -446,5 +464,13 @@
 			});
 		})();
 		</script>
+
+
+	<script>
+        var x = document.getElementById("loader");
+        function load() {
+            x.style.display="none";
+        }
+	</script>
 	</body>
 	</html>

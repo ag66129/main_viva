@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+    <link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
 
     <title>payment mode</title>
     <style media="screen">
@@ -171,7 +172,23 @@
 
     </style>
   </head>
-  <body>
+  <body onload="load()">
+
+
+  <!--################### LODER ###############3-->
+
+
+  <div id="loader" class="circ">
+    <div class="load">Loading . . . </div>
+    <div class="hands"></div>
+    <div class="body"></div>
+    <div class="head">
+      <div class="eye"></div>
+    </div>
+  </div>
+
+
+
     <a href="index.html"><img src="images/viva_original.png" style="width:50px;font-size:20px;position:absolute;top:3%;left:3%;cursor:pointer;z-index:2;color:white;"></a>
     <!--<a href="paymentflicker.html"><h4 style="font-family:'Joti One', cursive;  font-size:15px;position:absolute;top:3%;right:3%;cursor:pointer;z-index:2;color:white;">Payment for Flicker</br>Film-Making Contest</h4></a>-->
 
@@ -196,6 +213,11 @@
         <p>QR Code For Paytm</p>
       </div>
     </div>
-
+  <script>
+      var x = document.getElementById("loader");
+      function load() {
+          x.style.display="none";
+      }
+  </script>
   </body>
 </html>

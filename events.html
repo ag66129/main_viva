@@ -8,6 +8,7 @@
 		<meta name="description" content="Events" />
 	<link rel="shortcut icon" href="images/viva_original.png" />
 	<link rel="stylesheet" type="text/css" href="css/events.css" />
+	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
 		<script>
 		document.documentElement.className = "js";
 		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
@@ -15,7 +16,27 @@
 		</script>
 		<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
 	</head>
-		<body style="overflow-y: hidden; overflow-x: hidden">
+		<body onload="load()" style="overflow-y: hidden; overflow-x: hidden">
+
+
+		<!--################### LODER ###############3-->
+
+
+		<div id="loader" class="circ">
+			<div class="load">Loading . . . </div>
+			<div class="hands"></div>
+			<div class="body"></div>
+			<div class="head">
+				<div class="eye"></div>
+			</div>
+		</div>
+
+
+
+
+
+
+
 		<svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
 				<title>arrow</title>
@@ -456,5 +477,13 @@
 		<script src="js/event2.js"></script>
 		<script src="js/event3.js"></script>
 		<script src="js/event4.js"></script>
+
+
+		<script>
+            var x = document.getElementById("loader");
+            function load() {
+                x.style.display="none";
+            }
+		</script>
 	</body>
 </html>
