@@ -386,6 +386,8 @@ a:focus {
 	/*display: inline-flex;*/
 }
 
+.content__item::-webkit-scrollbar { width: 0 !important }
+
 .btn-hover {
 	width: 200px;
 	font-size: 16px;

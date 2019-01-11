@@ -9,16 +9,16 @@
   <body>
   <script type="text/javascript">var submitted=false;</script>
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-          onload="if(submitted) {window.location='payment.html';}"></iframe>
+          onload="if(submitted) {window.location='../index.html';}"></iframe>
     <div class="content" style="background-color:black;">
-    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeD5EZbFv9RrEKZhApNfBsCz7A9tVocFlElguxQu9uMXWbjWw/formResponse" onsubmit="submitted=true; target="hidden_iframe" method="POST" id="mG61Hd">
+    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeD5EZbFv9RrEKZhApNfBsCz7A9tVocFlElguxQu9uMXWbjWw/formResponse" onsubmit="submitted=true;" target="hidden_iframe" method="POST" id="mG61Hd">
 
       <div class="form__title">> DRAMATICS Registration</div>
 
       <div class="form__item">
-        <label class="form__label" >name</label>
+        <label class="form__label" >Name</label>
         <input type="text" name="entry.1327913029" class="form__input" required>
-        <span class="form__placeholder">name</span>
+        <span class="form__placeholder">Name</span>
       </div>
       <div class="form__item">
         <label class="form__label" >Email id</label>
@@ -26,9 +26,9 @@
         <span class="form__placeholder">Email id</span>
       </div>
       <div class="form__item">
-        <label class="form__label" >Contact number</label>
+        <label class="form__label" >Leader's Contact Number</label>
         <input type="text" name="entry.1291716222" class="form__input" required>
-        <span class="form__placeholder">Contact number</span>
+        <span class="form__placeholder">Leader's Contact Number</span>
       </div>
       <div class="form__item">
         <label class="form__label" >College name</label>
@@ -61,10 +61,15 @@
       </select>
     </div>
 
+      <button><a href="#"> Pay Now </a></button>
+
+      <p style="color: wheat;text-align: center;">Enter the transaction id below if the payment is made online else your registration will not be considered.</p>
+
+
       <div class="form__item">
-        <label class="form__label" >Remarks</label>
-        <textarea name="entry.943277507" class="form__input" required></textarea>
-        <span class="form__placeholder">Remarks</span>
+        <label class="form__label" >Transaction ID</label>
+        <input name="entry.943277507" class="form__input" >
+        <span class="form__placeholder">Transaction ID</span>
       </div>
 
       <input type="hidden" name="fvv" value="1"><input type="hidden" name="draftResponse" value="[null,null,&quot;452280032385005559&quot;]">

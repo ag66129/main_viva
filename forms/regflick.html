@@ -9,7 +9,7 @@
   <body>
   <script type="text/javascript">var submitted=false;</script>
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-          onload="if(submitted) {window.location='payment.html';}"></iframe>
+          onload="if(submitted) {window.location='../index.html';}"></iframe>
     <div class="content" style="background-color:black;">
     <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSclE5F45wrQqdHNERF0pFASUbecrx3tMXW2WeNBsU-CvQrBww/formResponse" onsubmit="submitted=true" target="hidden_iframe" method="POST" id="mG61Hd">
 
@@ -21,9 +21,9 @@
         <span class="form__placeholder">Team leaders name</span>
       </div>
       <div class="form__item">
-        <label class="form__label" for="firstname">Contact number</label>
+        <label class="form__label" for="firstname">Leader's Contact Number</label>
         <input type="text" name="entry.1955211553" class="form__input" required>
-        <span class="form__placeholder">Contact number</span>
+        <span class="form__placeholder">Leader's Contact Number</span>
       </div>
       <div class="form__item">
         <label class="form__label" for="firstname">Alternative mobile number</label>
@@ -81,10 +81,14 @@
         <input type="text" name="entry.1862464019" class="form__input" required>
         <span class="form__placeholder">DESCRIPTION</span>
       </div>
+      <button><a href="#"> Pay Now </a></button>
+
+      <p style="color: wheat;text-align: center;">Enter the transaction id below if the payment is made online else your registration will not be considered.</p>
+
       <div class="form__item">
-        <label class="form__label" for="firstname">REMARKS or QUERIES</label>
-        <textarea name="entry.322192050" class="form__input" required></textarea>
-        <span class="form__placeholder">REMARKS or QUERIES</span>
+        <label class="form__label" for="firstname">Transaction ID</label>
+        <input name="entry.322192050" class="form__input" >
+        <span class="form__placeholder">Transaction ID</span>
       </div>
 
       <input type="hidden" name="fvv" value="1"><input type="hidden" name="draftResponse" value="[null,null,&quot;-9182144037764336813&quot;]">

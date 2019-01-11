@@ -11,11 +11,32 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Anton|Niramit:400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/registration_base.css" />
+	<link rel="shortcut icon" href="images/viva_original.png" />
+
+	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
+
 	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
 </head>
 
-<body class="loading">
+<body onload="load()">
+
+<div class="adf" id="loader" style="
+    position: fixed;
+    z-index: 123;
+    height: 100vh;
+    background-color: #111111;
+    top: 0;
+    width: 100%;
+"><div class="circ" style="/* display: none; *//* position: fixed; *//* z-index: 123; *//* height: 100vh; *//* top: 0; *//* width: 100%; */">
+	<div class="load">Stay Vivacious . . . </div>
+	<div class="hands"></div>
+	<div class="body"></div>
+	<div class="head">
+		<div class="eye"></div>
+	</div>
+</div>
+</div>
 
 	<a href="./index.html">
 		<img src="images/vivalogo.png" alt="Vivacity White Logo" style="top:10px;left:10px;width:50px;height:50px;position:fixed;z-index:1;">
@@ -321,83 +342,91 @@
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">01</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Dance</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">02</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Dramatics</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">03</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Life 'N' Style</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">04</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Art And Craft</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">05</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Music</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">06</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Gaming</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">07</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Nukkad Natak</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">08</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Fliker Film-Making</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">09</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Sahyog-Social Cause</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">10</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Spotlight Open-Mic</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">11</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Bamboozled Entertainment Quiz</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">12</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Ipl Auction 3.O</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">13</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Litrary Events</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">14</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Master Chef</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 			<div class="menu__item">
 				<!-- <span class="menu__item-number">15</span> -->
 				<span class="menu__item-textwrap"><span class="menu__item-text">Photography</span></span>
-				<a class="menu__item-link">explore</a>
+				<a class="menu__item-link">Register here</a>
 			</div>
 		</nav>
 	</main>
 	<script src="js/regstration_imagesloaded.js"></script>
 	<script src="js/registration_TweenMax.js"></script>
 	<script src="js/registration_demo.js"></script>
+
+<script>
+    var x = document.getElementById("loader");
+    function load() {
+        x.style.display="none";
+    }
+</script>
+
 </body>
 
 </html>

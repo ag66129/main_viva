@@ -3,82 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="9062b0b7-5c0e-4d45-9110-0974a4c4585b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regopenmic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/Regopenmic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cinderBG.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cinderBG.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/events.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/evilLoader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/evilLoader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainloaderdemo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainloaderdemo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu_base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu_demo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu_demo2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/slick-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/slick-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/slick-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/slick.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/slickd41d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/Regopenmic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/Regopenmic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regart.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regbamboozled.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regbamboozled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regchef.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regchef.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regdance.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regdance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regdrama.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regdrama.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regflick.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regflick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/reggame.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/reggame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/reghunkaar.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/reghunkaar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regipl.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regipl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regmusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regmusic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regphoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regphoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regprincess.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regprincess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regsahyog.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regsahyog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/regvogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regvogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/reghunkkar.html" beforeDir="false" afterPath="$PROJECT_DIR$/images/reghunkkar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/css/sponser_component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/css/sponser_demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/antrakshri.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/artncraft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/campus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/campusprincess.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/contrasto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/dance.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/drama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/faceoff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/facepainting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/fifa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/flicker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/gaming.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/ignitious.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/inkthetee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/iplauction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/letstangle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/lifenstyle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/literary.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/masterchef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/medley.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/mime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/minimilitia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/monoact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/mudra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/music.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/nukkad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/photography.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/pumpitup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/quiz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/rapbattle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/razzmatazz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/sahyog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/shaktiman.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/solendius.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/spotlight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/stageplay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/sursangam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/swaranjali.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/tatootales.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/verismo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/sponser/vogue.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/viva_original.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/img/vivalogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/js/sponser_anime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/js/sponser_imagesloaded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/js/sponser_main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old registration/sponser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regart.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regbamboozled.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regbamboozled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regchef.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regchef.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regdance.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regdance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regdrama.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regdrama.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regflick.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regflick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggame.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/reggame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reghunkaar.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/reghunkaar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regipl.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regipl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regmusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regmusic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regphoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regphoto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regprincess.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regprincess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regsahyog.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regsahyog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regvogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/regvogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gallery1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gallery1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponser.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,35 +47,39 @@
     <session id="590907052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="36" />
-          <entry key="html" value="740" />
+          <entry key="css" value="90" />
+          <entry key="html" value="1318" />
+          <entry key="js" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="36" />
-          <entry key="HTML" value="740" />
+          <entry key="CSS" value="90" />
+          <entry key="HTML" value="1318" />
+          <entry key="JavaScript" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
-          <entry key="html" value="48" />
-          <entry key="js" value="2" />
+          <entry key="css" value="18" />
+          <entry key="html" value="93" />
+          <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="48" />
-          <entry key="JavaScript" value="2" />
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="93" />
+          <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -131,48 +89,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+            <state relative-caret-position="286">
+              <caret line="248" column="8" selection-start-line="248" selection-end-line="249" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#contain#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#1;n#div#2;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#h3#0;n#div#0;n#a#0;n#div#4;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cinderBG.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3855">
-              <caret line="260" column="65" selection-start-line="260" selection-start-column="65" selection-end-line="260" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#1;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -183,8 +109,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -197,6 +124,24 @@
       <find>__input&quot;</find>
       <find>target=&quot;_self</find>
       <find>#E43C15</find>
+      <find>\&lt;div class\=\&quot;adf\&quot; id\=\&quot;loader\&quot; style\=\&quot;\n    position\: fixed\;\n    z\-index\: 123\;\n    height\: 100vh\;\n    background\-color\: \#111111\;\n    top\: 0\;\n    width\: 100\%\;\n\&quot;\&gt;\&lt;div class\=\&quot;circ\&quot; style\=\&quot;\/\* display\: none\; \*\/\/\* position\: fixed\; \*\/\/\* z\-index\: 123\; \*\/\/\* height\: 100vh\; \*\/\/\* top\: 0\; \*\/\/\* width\: 100\%\; \*\/\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;load\&quot;\&gt;Stay Vivacious \. \. \. \&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;hands\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;body\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;head\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;eye\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;</find>
+      <find>\&lt;div id\=\&quot;loader\&quot; class\=\&quot;circ\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;load\&quot;\&gt;Loading \. \. \. \&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;hands\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;body\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;div class\=\&quot;head\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;eye\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;</find>
+      <find>content__number</find>
+      <find>&lt;span class=&quot;content__number&quot;&gt;&lt;/span&gt;</find>
+      <find>Remarks</find>
+      <find>Contact number</find>
+      <find>name</find>
+      <find>&gt;name&lt;</find>
+      <find>name&lt;</find>
+      <find>textarea</find>
+      <find>&lt;/textarea&gt;</find>
+      <find>button</find>
+      <find>explore</find>
+      <find>payment.html</find>
+      <find>shootin</find>
+      <find>shoo</find>
+      <find>stars</find>
+      <find>Shootin</find>
     </findStrings>
     <replaceStrings>
       <replace>images/team/</replace>
@@ -204,6 +149,15 @@
       <replace>__input&quot; required</replace>
       <replace>target=&quot;hidden_iframe</replace>
       <replace>#870B07</replace>
+      <replace>&lt;div class=&quot;adf&quot; id=&quot;loader&quot; style=&quot;     position: fixed;     z-index: 123;     height: 100vh;     background-color: #111111;     top: 0;     width: 100%; &quot;&gt;&lt;div class=&quot;circ&quot; style=&quot;/* display: none; *//* position: fixed; *//* z-index: 123; *//* height: 100vh; *//* top: 0; *//* width: 100%; */&quot;&gt; 		&lt;div class=&quot;load&quot;&gt;Stay Vivacious . . . &lt;/div&gt; 		&lt;div class=&quot;hands&quot;&gt;&lt;/div&gt; 		&lt;div class=&quot;body&quot;&gt;&lt;/div&gt; 		&lt;div class=&quot;head&quot;&gt; 			&lt;div class=&quot;eye&quot;&gt;&lt;/div&gt; 		&lt;/div&gt; 	&lt;/div&gt; 	&lt;/div&gt;</replace>
+      <replace>Transaction ID</replace>
+      <replace>Leader's Contact Number</replace>
+      <replace>Name</replace>
+      <replace>&gt;Name&lt;</replace>
+      <replace>input</replace>
+      <replace />
+      <replace>../index.html</replace>
+      <replace>Register here</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -212,19 +166,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GridLayoutMotion/index.html" />
         <option value="$PROJECT_DIR$/GridLayoutMotion/team.html" />
         <option value="$PROJECT_DIR$/old registration/index.html" />
-        <option value="$PROJECT_DIR$/css/events.css" />
-        <option value="$PROJECT_DIR$/gallery.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/team.html" />
-        <option value="$PROJECT_DIR$/events.html" />
-        <option value="$PROJECT_DIR$/sponser.html" />
-        <option value="$PROJECT_DIR$/payment.html" />
         <option value="$PROJECT_DIR$/testing.html" />
         <option value="$PROJECT_DIR$/regchef.html" />
-        <option value="$PROJECT_DIR$/css/evilLoader.css" />
         <option value="$PROJECT_DIR$/regart.html" />
         <option value="$PROJECT_DIR$/regbamboozled.html" />
         <option value="$PROJECT_DIR$/regdrama.html" />
@@ -239,8 +184,39 @@
         <option value="$PROJECT_DIR$/regsahyog.html" />
         <option value="$PROJECT_DIR$/regvogue.html" />
         <option value="$PROJECT_DIR$/regdance.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/cinderBG.css" />
+        <option value="$PROJECT_DIR$/css/evilLoader.css" />
+        <option value="$PROJECT_DIR$/sponser.html" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/payment.html" />
+        <option value="$PROJECT_DIR$/events.html" />
+        <option value="$PROJECT_DIR$/css/events.css" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/css/menu_base.css" />
+        <option value="$PROJECT_DIR$/css/menu_demo2.css" />
+        <option value="$PROJECT_DIR$/css/mainloaderdemo.css" />
+        <option value="$PROJECT_DIR$/forms/regart.html" />
+        <option value="$PROJECT_DIR$/forms/regchef.html" />
+        <option value="$PROJECT_DIR$/forms/regdance.html" />
+        <option value="$PROJECT_DIR$/forms/reggame.html" />
+        <option value="$PROJECT_DIR$/forms/reghunkaar.html" />
+        <option value="$PROJECT_DIR$/forms/regipl.html" />
+        <option value="$PROJECT_DIR$/forms/regmusic.html" />
+        <option value="$PROJECT_DIR$/forms/Regopenmic.html" />
+        <option value="$PROJECT_DIR$/forms/regphoto.html" />
+        <option value="$PROJECT_DIR$/forms/regsahyog.html" />
+        <option value="$PROJECT_DIR$/forms/regvogue.html" />
+        <option value="$PROJECT_DIR$/registration.html" />
+        <option value="$PROJECT_DIR$/css/social _media.css" />
+        <option value="$PROJECT_DIR$/js/social.js" />
+        <option value="$PROJECT_DIR$/css/social.css" />
+        <option value="$PROJECT_DIR$/forms/regdrama.html" />
+        <option value="$PROJECT_DIR$/forms/regbamboozled.html" />
+        <option value="$PROJECT_DIR$/forms/regflick.html" />
+        <option value="$PROJECT_DIR$/AnimatedMeshLines/index.html" />
+        <option value="$PROJECT_DIR$/AnimatedMeshLines/contact_backindex.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -263,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,13 +250,12 @@
             <path>
               <item name="main_viva" type="b2602c69:ProjectViewProjectNode" />
               <item name="main_viva" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimatedMeshLines" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,14 +267,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/forms" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/forms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,15 +300,16 @@
       <option name="presentableId" value="Default" />
       <updated>1547041079112</updated>
       <workItem from="1547041081399" duration="7336000" />
-      <workItem from="1547098417380" duration="11624000" />
+      <workItem from="1547098417380" duration="11636000" />
+      <workItem from="1547215572601" duration="18770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18960000" />
+    <option name="totallyTimeSpent" value="37742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20551005" />
@@ -353,6 +330,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20551005" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -374,17 +370,32 @@
     <entry file="file://$PROJECT_DIR$/css/sponser_component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/old registration/sponser.html">
+    <entry file="file://$PROJECT_DIR$/old registration/sponser.html" />
+    <entry file="file://$PROJECT_DIR$/testing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        <state relative-caret-position="75">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cinderBG.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/evilLoader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sponser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -393,40 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#section#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="83" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#a#2;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -439,91 +420,200 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="389" lean-forward="true" selection-start-line="389" selection-end-line="389" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu_base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="260" column="41" lean-forward="true" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu_demo2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainloader.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mainloaderdemo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1208">
+          <caret line="414" column="56" selection-start-line="414" selection-start-column="56" selection-end-line="414" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/payment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+        <state relative-caret-position="-240">
+          <caret line="173" column="12" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/evilLoader.css">
+    <entry file="file://$PROJECT_DIR$/js/social.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="504">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/regbamboozled.html">
+    <entry file="file://$PROJECT_DIR$/css/social.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/regchef.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/regdance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regdrama.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/forms/regbamboozled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="162" selection-start-line="13" selection-start-column="162" selection-end-line="13" selection-end-column="162" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/regflick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/reggame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="960">
+          <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/reghunkaar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regipl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="160" selection-start-line="13" selection-start-column="160" selection-end-line="13" selection-end-column="160" />
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regmusic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="266">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/Regopenmic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regphoto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regprincess.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="15">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -533,101 +623,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regsahyog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="807">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/regvogue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/regflick.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="160" selection-start-line="13" selection-start-column="160" selection-end-line="13" selection-end-column="160" />
+        <state relative-caret-position="315">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/reghunkaar.html">
+    <entry file="file://$PROJECT_DIR$/AnimatedMeshLines/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="315">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/regdance.html">
+    <entry file="file://$PROJECT_DIR$/AnimatedMeshLines/contact_back2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms/regchef.html">
+    <entry file="file://$PROJECT_DIR$/AnimatedMeshLines/contact_backindex2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="14" column="157" selection-start-line="14" selection-start-column="144" selection-end-line="14" selection-end-column="157" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="382" column="10" lean-forward="true" selection-start-line="382" selection-start-column="10" selection-end-line="382" selection-end-column="10" />
+        <state relative-caret-position="168">
+          <caret line="12" column="41741" selection-start-line="12" selection-start-column="41741" selection-end-line="12" selection-end-column="41741" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3855">
-          <caret line="260" column="65" selection-start-line="260" selection-start-column="65" selection-end-line="260" selection-end-column="65" />
+        <state relative-caret-position="90">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cinderBG.css">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#STYLE#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedMeshLines/contact_back1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="147" selection-start-column="147" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimatedMeshLines/contact_backindex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3199" selection-start-column="3199" selection-end-column="3199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#address#0;n#div#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+        <state relative-caret-position="286">
+          <caret line="248" column="8" selection-start-line="248" selection-end-line="249" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#contain#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#a#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#1;n#div#2;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#h3#0;n#div#0;n#a#0;n#div#4;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#5;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#6;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#7;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#8;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#9;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#1;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

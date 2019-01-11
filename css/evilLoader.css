@@ -60,7 +60,7 @@ body{
 .circ{
     -webkit-backface-visibility: hidden;
     margin: 60px auto;
-    width: 180px; height: 180px;
+    width: 220px; height: 180px;
     background-color: #111;
     border-radius: 0px 0px 50px 50px;
     position: relative;
@@ -92,7 +92,7 @@ body{
     margin: -10px auto;
     -webkit-font-smoothing: antialiased;
     font-family: 'Julius Sans One', sans-serif;
-    font-size:28px;
+    font-size:24px;
     font-weight:400;
     color:rgba(240,220,220,1);
     left: 2%; top: 5%;
@@ -104,11 +104,9 @@ body{
 }
 
 @-webkit-keyframes fontAnim{
-    0%{ width:7ch; }
-    16%{ width:8ch; }
-    32%{ width:9ch; }
-    48%{ width:10ch; }
-    64%{ width:11ch; }
-    80%{ width:12ch; }
-    100% { width:13ch;}
+    0%{ width:12ch; }
+    /*16%{ width:8ch; }*/
+    /*32%{ width:9ch; }*/
+    48%{ width:13ch; }
+    100% { width:14ch;}
 }
