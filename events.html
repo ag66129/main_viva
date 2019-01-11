@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	
+
 <head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Events</title>
-		<meta name="description" content="Events" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Events</title>
+	<meta name="description" content="Events" />
 	<link rel="shortcut icon" href="images/viva_original.png" />
 	<link rel="stylesheet" type="text/css" href="css/events.css" />
 	<link rel='stylesheet' href='css/evilLoader.css' type='text/css' media='all' />
-		<script>
+	<script>
 		document.documentElement.className = "js";
-		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+		var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
 		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-		</script>
-		<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
-	</head>
-		<body onload="load()" style="overflow-y: hidden; overflow-x: hidden">
+	</script>
+	<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
+</head>
+
+<body onload="load()" style="overflow-y: hidden; overflow-x: hidden">
 
 
-		<!--################### LODER ###############3-->
+	<!--################### LODER ###############3-->
 
 
-		<a href="./index.html">
-			<img src="images/vivalogo.png" alt="Vivacity White Logo" style="top:10px;right:10px;width:50px;height:50px;position:fixed;z-index:1;">
-		</a>
-		<div id="loader" class="circ">
-			<div class="load">Loading . . . </div>
-			<div class="hands"></div>
-			<div class="body"></div>
-			<div class="head">
-				<div class="eye"></div>
-			</div>
+	<a href="./index.html">
+		<img src="images/vivalogo.png" alt="Vivacity White Logo" style="top:10px;right:10px;width:50px;height:50px;position:fixed;z-index:1;">
+	</a>
+	<div id="loader" class="circ">
+		<div class="load">Loading . . . </div>
+		<div class="hands"></div>
+		<div class="body"></div>
+		<div class="head">
+			<div class="eye"></div>
 		</div>
+	</div>
 
 
 
@@ -40,453 +41,596 @@
 
 
 
-		<svg class="hidden">
-			<symbol id="icon-arrow" viewBox="0 0 24 24">
-				<title>arrow</title>
-				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
-			</symbol>
-			<symbol id="icon-drop" viewBox="0 0 24 24">
-				<title>drop</title>
-				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
-				<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
-			</symbol>
-			<symbol id="icon-longarrow" viewBox="0 0 54 24">
-				<title>longarrow</title>
-				<path d="M.42 11.158L12.38.256c.333-.27.696-.322 1.09-.155.395.166.593.467.593.903v6.977h38.87c.29 0 .53.093.716.28.187.187.28.426.28.716v5.98c0 .29-.093.53-.28.716a.971.971 0 0 1-.716.28h-38.87v6.977c0 .416-.199.717-.592.903-.395.167-.759.104-1.09-.186L.42 12.62a1.018 1.018 0 0 1 0-1.462z" />
-			</symbol>
-			<symbol id="icon-navarrow" viewBox="0 0 408 408">
-				<title>navarrow</title>
-				<polygon fill="#fff" fill-rule="nonzero" points="204 0 168.3 35.7 311.1 178.5 0 178.5 0 229.5 311.1 229.5 168.3 372.3 204 408 408 204"></polygon>
-			</symbol>
-		</svg>
-		<main>
-			<div class="frame">
-				<header class="codrops-header">
-					<!--<h1 class="codrops-header__title">Diagonal Slideshow</h1>-->
-				</header>
+	<svg class="hidden">
+		<symbol id="icon-arrow" viewBox="0 0 24 24">
+			<title>arrow</title>
+			<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+		</symbol>
+		<symbol id="icon-drop" viewBox="0 0 24 24">
+			<title>drop</title>
+			<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+			<path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" />
+		</symbol>
+		<symbol id="icon-longarrow" viewBox="0 0 54 24">
+			<title>longarrow</title>
+			<path d="M.42 11.158L12.38.256c.333-.27.696-.322 1.09-.155.395.166.593.467.593.903v6.977h38.87c.29 0 .53.093.716.28.187.187.28.426.28.716v5.98c0 .29-.093.53-.28.716a.971.971 0 0 1-.716.28h-38.87v6.977c0 .416-.199.717-.592.903-.395.167-.759.104-1.09-.186L.42 12.62a1.018 1.018 0 0 1 0-1.462z" />
+		</symbol>
+		<symbol id="icon-navarrow" viewBox="0 0 408 408">
+			<title>navarrow</title>
+			<polygon fill="#fff" fill-rule="nonzero" points="204 0 168.3 35.7 311.1 178.5 0 178.5 0 229.5 311.1 229.5 168.3 372.3 204 408 408 204"></polygon>
+		</symbol>
+	</svg>
+	<main>
+		<div class="frame">
+			<header class="codrops-header">
+				<!--<h1 class="codrops-header__title">Diagonal Slideshow</h1>-->
+			</header>
+		</div>
+		<div class="slideshow">
+			<div class="slideshow__deco"></div>
+
+
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Dance.png);"></div>
+				</div>
+				<div class="slide__side">Insignia</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">DANCE</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
 			</div>
-			<div class="slideshow">
-				<div class="slideshow__deco"></div>
-
-
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Dance.png);"></div>
-						</div>
-						<div class="slide__side">Insignia</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">DANCE</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Drama.png);"></div>
-						</div>
-						<div class="slide__side">Rendition</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">DRAMATICS</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Life_n_style.png);"></div>
-						</div>
-						<div class="slide__side">Eminence</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">LIFE 'N' STYLE</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Art.png);"></div>
-						</div>
-						<div class="slide__side">Vignette</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">ART AND CRAFT</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Music.png);"></div>
-						</div>
-						<div class="slide__side">Capriccio</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">MUSIC</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Gaming.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">GAMING</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Nukkad1.png);"></div>
-						</div>
-						<div class="slide__side">Aaveg</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">NUKKAD NATAK</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/FilmMaking.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">INDIA-FILM-MAKING</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Sahyog.png);"></div>
-						</div>
-						<div class="slide__side">Sankalp</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">SAHYOG-SOCIAL CAUSE</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/OpenMic.png);"></div>
-						</div>
-						<div class="slide__side">Media Cell</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">SPOTLIGHT-OPEN MIC</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/QUIZ.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">BAMBOOZLED-ENTERTAINMENT QUIZ</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Ipl_Auction.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">IPL AUCTION 3.O</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Literary.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">LITRARY EVENTS</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/MasterChef.png);"></div>
-						</div>
-						<div class="slide__side">Hopes & Dreams</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">MASTER CHEF</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-					<div class="slide">
-						<div class="slide__img-wrap">
-							<div class="slide__img" style="background-image: url(images/events/Photography.png);"></div>
-						</div>
-						<div class="slide__side">Imagination</div>
-						<div class="slide__title-wrap">
-							<span class="slide__number"></span>
-							<h3 class="slide__title">PHOTOGRAPHY</h3>
-							<h4 class="slide__subtitle"></h4>
-						</div>
-					</div>
-
-					<button class="nav nav--prev">
-						<svg class="icon icon--navarrow-prev">
-							<use xlink:href="#icon-navarrow"></use>
-						</svg>
-					</button>
-					<button class="nav nav--next">
-						<svg class="icon icon--navarrow-next">
-							<use xlink:href="#icon-navarrow"></use>
-						</svg>
-					</button>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Drama.png);"></div>
+				</div>
+				<div class="slide__side">Rendition</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">DRAMATICS</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
 			</div>
-			<div class="content">
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">DANCE</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regdance.html" class="buttons">
-							<button class="btn-hover color">MUDRA<br>[SOLO CLASSICAL]</button>
-						</a>
-						<a href="forms/regdance.html" class="buttons">
-							<button class="btn-hover color">LET'S TANGLE<br>[DUET DANCE]</button>
-						</a>
-						<a href="forms/regdance.html" class="buttons">
-							<button class="btn-hover color">FACE-OFF<br>[DANCE BATTLE]</button>
-						</a>
-						<a href="forms/regdance.html" class="buttons">
-							<button class="btn-hover color">PUMP IT UP<br>[SOLO WESTERN]</button>
-						</a>
-						<a href="forms/regdance.html" class="buttons">
-							<button class="btn-hover color">RAZZMATAZ<br>[GROUP DANCE]</button>
-						</a>
-
-					</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Life_n_style.png);"></div>
 				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">DRAMATICS</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regdrama.html" class="buttons">
-							<button class="btn-hover color">RANGSHALA<br>[STAGE PLAY]</button>
-						</a>
-						<a href="forms/regdrama.html" class="buttons">
-							<button class="btn-hover color">SWAYAM<br>[MONO ACTING]</button>
-						</a>
-						<a href="forms/regdrama.html" class="buttons">
-							<button class="btn-hover color">MUKH ABHINAYA<br>[MIME ACT]</button>
-						</a>
-
-
-					</div>
+				<div class="slide__side">Eminence</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">LIFE 'N' STYLE</h3>
+					<h4 class="slide__subtitle"></h4>
 				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">LIFE 'N' STYLE</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regvogue.html" class="buttons">
-							<button class="btn-hover color">VOGUE</button>
-						</a>
-						<a href="forms/regprincess.html" class="buttons">
-							<button class="btn-hover color">CAMPUS PRINCESS</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">ART AND CRAFT</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regart.html" class="buttons">
-							<button class="btn-hover color">OKIDOKI-FACE<br>PAINTING</button>
-						</a>
-						<a href="forms/regart.html" class="buttons">
-							<button class="btn-hover color">TATOO TALES<br>[TATOO MAKING]</button>
-						</a>
-						<a href="forms/regart.html" class="buttons">
-							<button class="btn-hover color">RANGEELA<br>[WATER PAINTING]</button>
-						</a>
-						<a href="forms/regart.html" class="buttons">
-							<button class="btn-hover color">CONTRASTO<br>[BLACK & WHITE PAINTING]</button>
-						</a>
-						<a href="forms/regart.html" class="buttons">
-							<button class="btn-hover color">INK THE TEE<br>[T-SHIRT DESIGNING]</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">MUSIC</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">SWARANJALI<br>[SOLO INDIAN]</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">MESCOLANZA<br>[MEDLEY]</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">ANTAKSHRI</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">VERISMO<br>[INSTRUMENTAL]</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">SUR SANGAM<br>[DUET SINGING]</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">SOLENDIOUS<br>[ENGLISH SOLO]</button>
-						</a>
-						<a href="forms/regmusic.html" class="buttons">
-							<button class="btn-hover color">RAP BATTLE</button>
-						</a>
-
-
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">GAMING</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/reggame.html" class="buttons">
-							<button class="btn-hover color">MINI MILITIA</button>
-						</a>
-						<a href="forms/reggame.html" class="buttons">
-							<button class="btn-hover color">FIFA</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">NUKKAD NATAK</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/reghunkaar.html" class="buttons">
-							<button class="btn-hover color">HUNKAAR<br>[STREET PLAY]</button>
-						</a>
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">FLICKER-FILM-MAKING</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regflick.html" class="buttons">
-							<button class="btn-hover color">FLICKER-FILM-MAKING</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">SAHYOG-SOCIAL CAUSE</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regsahyog.html" class="buttons">
-							<button class="btn-hover color">SAHYOG-SOCIAL CAUSE</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">SPOTLIGHT-OPEN MIC</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/Regopenmic.html" class="buttons">
-							<button class="btn-hover color">OPEN MIC</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">BAMBOOZLED-ENTERTAINMENT QUIZ</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regbamboozled.html" class="buttons">
-							<button class="btn-hover color">QUIZ</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">IPL AUCTION 3.O</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regipl.html" class="buttons">
-							<button class="btn-hover color">AUCTION</button>
-						</a>
-
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">LITERARY EVENTS</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="kuch.html" class="buttons">
-							<button class="btn-hover color">LITERARY</button>
-						</a>
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">MASTER CHEF</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regchef.html" class="buttons">
-							<button class="btn-hover color">MASTER</button>
-						</a>
-					</div>
-				</div>
-				<div class="content__item">
-					<span class="content__number"></span>
-					<h3 class="content__title">PHOTOGRAPHY</h3>
-					<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
-					<div class="content__text">
-						<a href="forms/regphoto.html" class="buttons">
-							<button class="btn-hover color">PHOTOGRAPHY</button>
-						</a>
-					</div>
-				</div>
-
-
-
-
-				<button class="content__close">
-					<svg class="icon icon--longarrow">
-						<use xlink:href="#icon-longarrow"></use>
-					</svg>
-				</button>
 			</div>
-		</main>
-		<script src="js/event1.js"></script>
-		<script src="js/event2.js"></script>
-		<script src="js/event3.js"></script>
-		<script src="js/event4.js"></script>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Art.png);"></div>
+				</div>
+				<div class="slide__side">Vignette</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">ART AND CRAFT</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Music.png);"></div>
+				</div>
+				<div class="slide__side">Capriccio</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">MUSIC</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Gaming.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">GAMING</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Nukkad1.png);"></div>
+				</div>
+				<div class="slide__side">Aaveg</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">NUKKAD NATAK</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/FilmMaking.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">INDIA-FILM-MAKING</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Sahyog.png);"></div>
+				</div>
+				<div class="slide__side">Sankalp</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">SAHYOG-SOCIAL CAUSE</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/OpenMic.png);"></div>
+				</div>
+				<div class="slide__side">Media Cell</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">SPOTLIGHT-OPEN MIC</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/QUIZ.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">BAMBOOZLED-ENTERTAINMENT QUIZ</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Ipl_Auction.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">IPL AUCTION 3.O</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Literary.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">LITRARY EVENTS</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/MasterChef.png);"></div>
+				</div>
+				<div class="slide__side">Hopes & Dreams</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">MASTER CHEF</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(images/events/Photography.png);"></div>
+				</div>
+				<div class="slide__side">Imagination</div>
+				<div class="slide__title-wrap">
+					<span class="slide__number"></span>
+					<h3 class="slide__title">PHOTOGRAPHY</h3>
+					<h4 class="slide__subtitle"></h4>
+				</div>
+			</div>
+
+			<button class="nav nav--prev">
+				<svg class="icon icon--navarrow-prev">
+					<use xlink:href="#icon-navarrow"></use>
+				</svg>
+			</button>
+			<button class="nav nav--next">
+				<svg class="icon icon--navarrow-next">
+					<use xlink:href="#icon-navarrow"></use>
+				</svg>
+			</button>
+		</div>
+		<div class="content">
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">DANCE</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regdance.html" class="buttons">
+						<button class="btn-hover color">MUDRA<br>[SOLO CLASSICAL]</button>
+					</a>
+					<a href="forms/regdance.html" class="buttons">
+						<button class="btn-hover color">LET'S TANGLE<br>[DUET DANCE]</button>
+					</a>
+					<a href="forms/regdance.html" class="buttons">
+						<button class="btn-hover color">FACE-OFF<br>[DANCE BATTLE]</button>
+					</a>
+					<a href="forms/regdance.html" class="buttons">
+						<button class="btn-hover color">PUMP IT UP<br>[SOLO WESTERN]</button>
+					</a>
+					<a href="forms/regdance.html" class="buttons">
+						<button class="btn-hover color">RAZZMATAZ<br>[GROUP DANCE]</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">DRAMATICS</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regdrama.html" class="buttons">
+						<button class="btn-hover color">RANGSHALA<br>[STAGE PLAY]</button>
+					</a>
+					<a href="forms/regdrama.html" class="buttons">
+						<button class="btn-hover color">SWAYAM<br>[MONO ACTING]</button>
+					</a>
+					<a href="forms/regdrama.html" class="buttons">
+						<button class="btn-hover color">MUKH ABHINAYA<br>[MIME ACT]</button>
+					</a>
 
 
-		<script>
-            var x = document.getElementById("loader");
-            function load() {
-                x.style.display="none";
-            }
-		</script>
-	</body>
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">LIFE 'N' STYLE</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+						VOGUE:
+						Judging Criteria -
+						 Theme: Originality, Depiction of Theme, Designing, Use of Props.
+						 Constraint: Uniqueness, Innovation and Improvisation in terms of
+						executing the transformation.
+						 Models: Ramp walk, Stage Presence, Poise, Overall Appearance
+						 Team: Choreography, Music and Narration, Co-ordination,
+						Relevance to the theme and Overall Performance
+						Rules –
+						 Prior online registration is required.
+						 It is a team event. Team size may vary from 10 to 20 members, including models, designers,
+						choreographers, make-up artists, etc.
+						 Each member of the team is required to carry their ID cards.
+						 Theme selection is open. All the teams can have a theme of their own choice.
+						 Props should be arranged by the teams on their own. Use of fire, water, animals or any
+						hazardous material is prohibited.
+						 Vulgarity of any kind would lead to disqualification of team from the event. Hence if the team
+						feels that any stunt of costume design can be deemed as vulgar, it is
+						 strongly advised to consult the organizers than performing it directly on stage.
+						 The teams are required to bring their own music on pendrives or CDs in .mp3/.wav format (teams are
+						required to give 2 copies on 2 separate CDs) with their college name written on the CDs and hand them
+						over to the organizers at least 3 hours before the event commences.
+						 The organizers take the liberty to check on any sort of misconduct during the stay
+						 of the teams and would take necessary actions whenever required.
+						 The decision of the judges and the organizing committee will be final and binding.
+						 Σ Prelims- Each team will be allotted 7 to 10 minutes for their performances (The teams
+						 will be judged on the basis of their choreography section and theme only).
+						 Σ Final- Each team will be allotted 12 to 15 minutes for their performances.
+						MR. AND MS. VIVACITY:
+MR AND MISS VIVACITY is a beauty pageant and a personality hunt. There will be an online
+competition for this event. On campus there will be two rounds.
+1) Prelims
+2) Finals
+General Rules -
+ Only college students are allowed to participate.
+ Your entry will only be considered after you have completed the registration for the
+whole event.
+ Participating in online competition is not mandatory.
+Rules for Online Competition –
+ Participants are required to fill their personal details and answer a few questions
+pertaining to their personality in the form provided.
+ Please note that you are required to submit 2 photographs -2 snaps of the participant
+should be submitted in the form below. One in denim wear and the other could be a
+ close-up or a click in any other comfortable wear of the participant's choice (i.e. any
+ solo picture of the participant's choice)
+ No other person should be present in any photographs submitted by the participant.
+ The snaps uploaded in the form below must also be mailed to vogue.vivacity@gmail.com.
+ Only one entry per person is allowed in the online competition.
+ The total number of top contestants to get a direct entry to the on campus round of
+ Mr and Ms Vivacity would be the sole discretion of the coordinators. This means that
+they can skip the prelims round.
+ Entry to the on campus round would be on the basis of the overall score (points gained
+by the number of likes, comments and shares) in the online competition. Please
+maintain the integrity of the competition. Your clicks should not be offensive,
+ obscene or derogatory. The organizers have the right to disqualify such defaulters.
+ Plagiarism is strictly prohibited.
+ The organizers would not be held responsible for the misuse of any photograph after
+we post it online for competition.
+ The organizers take the liberty to decide on the total number of selected
+ applicants. (This largely depends on the number of participants.)
+ The organizers reserve the rights to check on any sort of misconduct and take
+necessary actions.
+ Score patterns are as follows -
+ ONE point will be rewarded for a like
+ TWO points will be rewarded for sharing the picture with #SponsorName #MrMsVivacity.
+ THREE points will be awarded for a comment regarding the pose and self-described
+personality questions. All comments should include #SponsorName #MrMsVivacity.
+CAMPUS PRINCESS:
+ELIGIBILITY CRITERIA -
+ Nationality: Indian Passport Holder
+ Age: Between 18-25 years
+ Marital Status: The applicant should be unmarried.
+ Height: 5’ 5” and above (without heels).
+ Student of any recognized educational institution.
+ Selected participants will have to follow the dress code of a Black Cocktail Dress and Stilettos while walking
+the ramp.
+Gratification:
+ The winners get direct entry to the final round of Miss Universe India 2018 auditions In Mumbai.
+ They also get a chance to be a part of the Exclusive Miss India Organization Grooming School wherein they
+get trained by the best names from the fashion and glamour Industry.
+ Miss India Organization merchandise to be entitled to the winners.
+					<a href="forms/regvogue.html" class="buttons">
+						<button class="btn-hover color">VOGUE</button>
+					</a>
+					<a href="forms/regprincess.html" class="buttons">
+						<button class="btn-hover color">CAMPUS PRINCESS</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">ART AND CRAFT</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regart.html" class="buttons">
+						<button class="btn-hover color">OKIDOKI-FACE<br>PAINTING</button>
+					</a>
+					<a href="forms/regart.html" class="buttons">
+						<button class="btn-hover color">TATOO TALES<br>[TATOO MAKING]</button>
+					</a>
+					<a href="forms/regart.html" class="buttons">
+						<button class="btn-hover color">RANGEELA<br>[WATER PAINTING]</button>
+					</a>
+					<a href="forms/regart.html" class="buttons">
+						<button class="btn-hover color">CONTRASTO<br>[BLACK & WHITE PAINTING]</button>
+					</a>
+					<a href="forms/regart.html" class="buttons">
+						<button class="btn-hover color">INK THE TEE<br>[T-SHIRT DESIGNING]</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">MUSIC</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">SWARANJALI<br>[SOLO INDIAN]</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">MESCOLANZA<br>[MEDLEY]</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">ANTAKSHRI</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">VERISMO<br>[INSTRUMENTAL]</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">SUR SANGAM<br>[DUET SINGING]</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">SOLENDIOUS<br>[ENGLISH SOLO]</button>
+					</a>
+					<a href="forms/regmusic.html" class="buttons">
+						<button class="btn-hover color">RAP BATTLE</button>
+					</a>
+
+
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">GAMING</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/reggame.html" class="buttons">
+						<button class="btn-hover color">MINI MILITIA</button>
+					</a>
+					<a href="forms/reggame.html" class="buttons">
+						<button class="btn-hover color">FIFA</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">NUKKAD NATAK</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/reghunkaar.html" class="buttons">
+						<button class="btn-hover color">HUNKAAR<br>[STREET PLAY]</button>
+					</a>
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">INDIA-FILM-PROJECT</h3>
+				<h4 class="content__subtitle">India Film Project is an annual content creation festival. The festival
+					features a flagship 24 Hour filmmaking challenge, where participants are
+					given 24 hours to make a film after which a panel of judges select award
+					winners.
+					Competitors form teams and are given a common theme to which they
+					then write a script and shoot the films. They have a free choice of
+					locations, equipment and actors. By participating in this competition , you
+					adhere to the criteria as the sole creditor for the movie.</h4>
+				<div class="content__text">Rules:-
+					1. The theme will be revealed via WhatsApp/SMS at the beginning of 24
+					hours.
+					2. Tasks-Each team has to perform following tasks in the given period
+					of 24 hours – Scripting , Casting , Location and Art Design.
+					Teams can shoot on DSLR or Mobile on 720p or higher. However ,
+the editing must be done on laptop.
+4. Team leaders will receive the link for uploading the films at the start
+of the competition.
+5. Maximum length of the film should be 120 seconds excluding
+beginning and end credits.
+6. Stock audios used should be mentioned in the end .
+7. You can have maximum 10 members in your team, excluding the
+cast.
+8. Any film received after the 24 hours deadline will be disqualified
+Judging Criteria:-
+1.Direction
+2.Acting
+3.Editing
+4.Cinematography
+5.Story
+6.Script
+7.Audio
+
+<a href="forms/regphoto.html" class="buttons">
+	<button class="btn-hover color">Cut to The Chase</button>
+</a>
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">SAHYOG-SOCIAL CAUSE</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regsahyog.html" class="buttons">
+						<button class="btn-hover color">SAHYOG-SOCIAL CAUSE</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">SPOTLIGHT-OPEN MIC</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/Regopenmic.html" class="buttons">
+						<button class="btn-hover color">OPEN MIC</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">BAMBOOZLED-ENTERTAINMENT QUIZ</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regbamboozled.html" class="buttons">
+						<button class="btn-hover color">QUIZ</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">IPL AUCTION 3.O</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regipl.html" class="buttons">
+						<button class="btn-hover color">AUCTION</button>
+					</a>
+
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">LITERARY EVENTS</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="kuch.html" class="buttons">
+						<button class="btn-hover color">LITERARY</button>
+					</a>
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">MASTER CHEF</h3>
+				<h4 class="content__subtitle">This is probably the greatest thing to happen in my life</h4>
+				<div class="content__text">
+					<a href="forms/regchef.html" class="buttons">
+						<button class="btn-hover color">MASTER</button>
+					</a>
+				</div>
+			</div>
+			<div class="content__item">
+				<span class="content__number"></span>
+				<h3 class="content__title">PHOTOGRAPHY</h3>
+				<h4 class="content__subtitle">India Film Project is an annual content creation festival. The festival
+					features a flagship 24 Hour filmmaking challenge, where participants are
+					given 24 hours to make a film after which a panel of judges select award
+					winners.
+					Competitors form teams and are given a common theme to which they
+					then write a script and shoot the films. They have a free choice of
+					locations, equipment and actors. By participating in this competition , you
+					adhere to the criteria as the sole creditor for the movie.</h4>
+				<div class="content__text">Rules:-
+					1. The theme will be revealed via WhatsApp/SMS at the beginning of 24
+					hours.
+					2. Tasks-Each team has to perform following tasks in the given period
+					of 24 hours – Scripting , Casting , Location and Art Design.
+					Teams can shoot on DSLR or Mobile on 720p or higher. However ,
+the editing must be done on laptop.
+4. Team leaders will receive the link for uploading the films at the start
+of the competition.
+5. Maximum length of the film should be 120 seconds excluding
+beginning and end credits.
+6. Stock audios used should be mentioned in the end .
+7. You can have maximum 10 members in your team, excluding the
+cast.
+8. Any film received after the 24 hours deadline will be disqualified
+Judging Criteria:-
+1.Direction
+2.Acting
+3.Editing
+4.Cinematography
+5.Story
+6.Script
+7.Audio
+Contact Details:-
+Sarthak Jain-9001383821
+Yash Bansal-7415608476
+					<a href="forms/regphoto.html" class="buttons">
+						<button class="btn-hover color">PHOTOGRAPHY</button>
+					</a>
+				</div>
+			</div>
+
+
+
+
+			<button class="content__close">
+				<svg class="icon icon--longarrow">
+					<use xlink:href="#icon-longarrow"></use>
+				</svg>
+			</button>
+		</div>
+	</main>
+	<script src="js/event1.js"></script>
+	<script src="js/event2.js"></script>
+	<script src="js/event3.js"></script>
+	<script src="js/event4.js"></script>
+
+
+	<script>
+		var x = document.getElementById("loader");
+		function load() {
+			x.style.display = "none";
+		}
+	</script>
+</body>
+
 </html>
