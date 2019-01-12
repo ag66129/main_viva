@@ -4,29 +4,98 @@
 <head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='../css/evilLoader.css' type='text/css' media='all' />
 
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-	<link href="contact_back2.css" rel="stylesheet">
-	<link href="contact_back1.css" rel="stylesheet">
+
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<!--<link href="contact_back2.css" rel="stylesheet">-->
+	<!--<link href="contact_back1.css" rel="stylesheet">-->
+
+	<style>
+		canvas{
+			position: absolute;
+			top: -200px;
+		}
+		body{
+			--color-bg: #0e0e0f;
+			--color-bg-2: #242635;
+			color: white;
+			--color-bg-3: #dc2c5a;
+			--color-link: #dc2c5a;
+			--color-link-hover: #ff0060;
+			background: radial-gradient(ellipse at 500% 0,var(--color-bg) 50%,var(--color-bg-2) 80%,var(--color-bg-3) 100%);
+		}
+	</style>
 </head>
 	<script src="http://tympanus.net/codrops/adpacks/analytics.js"></script>
-	<body>
-		<div class="background"></div>
-		<div class="overlay"></div>
-		<main>
-			<div class="frame">
-				<!--<div class="frame__title-wrap">-->
-					<!--<h1 class="frame__title"></h1>-->
-				<!--</div>-->
-				<!--<div class="frame__links">-->
+	<body onload="load()">
+	<div class="background" style="transform: matrix(1, 0, 0, 1, 0, -300);"></div>
+	<div class="overlay" style="opacity: 0;"></div>
 
-				<!--</div>-->
-				<!--<div class="frame__demos">-->
-				<!--</div>-->
+	<!--################### LODER ###############3-->
+
+
+	<div class="adf" id="loader" style="
+    position: fixed;
+    z-index: 123;
+    height: 100vh;
+    background-color: #111111;
+    top: 0;
+    width: 100%;
+"><div class="circ" style="/* display: none; *//* position: fixed; *//* z-index: 123; *//* height: 100vh; *//* top: 0; *//* width: 100%; */">
+		<div class="load">Stay Vivacious . . . </div>
+		<div class="hands"></div>
+		<div class="body"></div>
+		<div class="head">
+			<div class="eye"></div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<div class="forcontact">
+			<a href="index.html"><img src="images/viva_original.png" style="width:50px;height:50px;font-size:20px;position:absolute;top:3%;left:3%;cursor:pointer;z-index:2;color:white;"></a>
+			<h1 style="color:#dc2c5a;text-align:center;font-size:60px;width:100%;font-family: &#39;Libre Baskerville&#39;, serif">Contact Us</h1>
+			<div class="" style="width: 70%;
+    margin: 0 auto;
+    text-align: center;">
+				<div>
+					<p style="padding:20px 0;font-family: &#39;Montserrat&#39;, sans-serif;">Email : <b>vivacity2k19@gmail.com</b></p>
+				</div>
+				<div class="phone" style="display: flex;text-align: center;justify-content:center;">
+					<div class="">
+						<p style="padding:20px 0;font-family: &#39;Montserrat&#39;, sans-serif;">Phone:</p>
+					</div>
+					<div class="">
+						<p style="padding:20px 0;font-family: &#39;Montserrat&#39;, sans-serif;"><b>+91-9001757535 <br> Ateet Tiwari</b></p>
+					</div>
+					<div class="">
+						<p style="padding:20px 0;font-family: &#39;Montserrat&#39;, sans-serif;"><b>+91-7006638382 <br> Prabhat Sharma</b></p>
+					</div>
+				</div>
+				<div class="add" style="display: flex;justify-content:center;">
+					<div style="align-self: center;">
+						<address class="" style="width:100%;">
+							Address :<br> <b>Rupa ki Nangal, Post-Sumel, Via-Jamdoli <br> Sumel, Jaipur, Rajasthan 302031<br></b>
+						</address>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14227.637163663185!2d75.9280313!3d26.938090000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dba21e8a1d1c9%3A0x5ab565cce4d44c2b!2sLNMIIT!5e0!3m2!1sen!2sin!4v1547278966133" frameborder="0" style="border:0;width: 300px;margin: 30px auto;height: 300px;" allowfullscreen></iframe>
+
+					</div>
+
+				</div>
 			</div>
-		</main>
+		</div>
+
 		<script type="text/javascript" src="contact_backindex2.js"></script>
 		<script type="text/javascript" src="contact_backindex.js"></script>
+
+	<script>
+        var x = document.getElementById("loader");
+        function load() {
+            x.style.display="none";
+        }
+	</script>
 	</body>
 
 </html>

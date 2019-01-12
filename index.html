@@ -20,10 +20,21 @@
 		<link rel="stylesheet" type="text/css" href="css/Mobile_menu.css" />
 		<!--<link rel="stylesheet" type="text/css" href="css/social.css" />-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-
-        <link rel="stylesheet" type="text/css" href="css/mainloaderdemo.css" />
+		<link rel="stylesheet" type="text/css" href="css/mainloaderdemo.css" />
         <link rel="stylesheet" type="text/css" href="css/mainloader.css" />
+
+		<style>
+			#reg{
+				top: 10px;height: 40px;background-color: #680903;z-index: 4;right: 10px;border: 2px white solid;color: wheat;
+			}
+			#reg:hover{
+				background-color: wheat;
+				color: #680903;
+				border-color: #680903;
+			}
+		</style>
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
 	<body onload="load()" class="demo-2 " style="background-image: url(images/Artboard.png);background-size:cover;background-position: center; ;background-repeat: no-repeat">
@@ -243,10 +254,24 @@
 			</div>
 		</contain></div>
 
+		<!--<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>-->
+		<a href="registration.html">
+		<button id="reg" style="position: absolute;">
+			Register
+		</button>
+		</a>
+		<div class="social" style="position: absolute;bottom: 10px;right: 10px;z-index: 4">
+		<ul>
+			<a target="_blank" href="https://www.facebook.com/Vivacity.LNMIIT/" style="height: 25px;cursor: pointer;width: 25px;"> <i class="fa fa-facebook" id="shareBtn" style="width: 35px;height: 25px;transform: scale(1.5);"></i></a>
+			<a target="_blank " href="https://www.youtube.com/user/VivacityLNMIITJaipur" style="height: 25px;cursor: pointer;width: 25px;"> <i class="fa fa-youtube-play" id="shareBtn" style="width: 35px;height: 25px;transform: scale(1.5);"></i></a>
+				<a target="_blank" href="https://www.instagram.com/vivacity_lnmiit/" style="height: 25px;cursor: pointer;width: 25px;"> <i class="fa fa-instagram" id="shareBtn" style="width: 35px;height: 25px;transform: scale(1.5);"></i></a>
+		</ul>
+	</div>
+
+
 
 	<main>
 
-		<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>
 
   <!--######################### Social MEdia icon ##################-->
 
@@ -282,6 +307,7 @@
 
             <button class="menu-trigger glitch" style="font-size: 200%">+ Menu</button>
         </div>
+
 
         <div id="content-1" class="content content--switch content--switch-current"></div>
 				<nav class="grim">
@@ -402,7 +428,8 @@
 		<script src="js/menu2.js"></script>
 		<script src="js/social.js"></script>
 
-		<script>
+
+        <script>
 			var x = document.getElementById("loader");
 			function load() {
 				x.style.display="none";
