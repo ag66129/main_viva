@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9062b0b7-5c0e-4d45-9110-0974a4c4585b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/registration/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-    </list>
+    <list default="true" id="9062b0b7-5c0e-4d45-9110-0974a4c4585b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -452,7 +404,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -530,15 +482,15 @@
       <workItem from="1547215572601" duration="19379000" />
       <workItem from="1547268362762" duration="2453000" />
       <workItem from="1547272109992" duration="14248000" />
-      <workItem from="1547289985399" duration="5166000" />
+      <workItem from="1547289985399" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60218000" />
+    <option name="totallyTimeSpent" value="60818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1325391" />
