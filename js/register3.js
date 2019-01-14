@@ -1,17 +1,6 @@
-/**
- * register3.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2018, Codrops
- * http://www.codrops.com
- */
+
 {
-    /**
-	 * Distance between two points P1 (x1,y1) and P2 (x2,y2).
-	 */
+
     const distancePoints = (x1, y1, x2, y2) => Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
 
     // from http://www.quirksmode.org/js/events_properties.html#position
