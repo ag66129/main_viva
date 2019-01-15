@@ -376,6 +376,7 @@
 }
     body{
         background-position: 82%;
+        height: 120vh;
     }
     #date{
         font-family: bebas;
@@ -401,7 +402,10 @@
 
 @media(min-width:55em){
     body{
-        background-position: bottom;
+        background-position: center;
+    }
+    body{
+        height: 100vh;
     }
     .moblogo{
         display: none;
