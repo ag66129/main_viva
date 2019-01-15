@@ -374,6 +374,9 @@
     margin: auto;
     width: 230px;
 }
+    body{
+        background-position: 82%;
+    }
     #date{
         font-family: bebas;
         justify-content:center;
@@ -386,19 +389,25 @@
         width: 100%;
         font-size: 50px;
         letter-spacing: 5px;
+
+    }
+    #logo{
+        display: none;
     }
 }
 
+
+
+
 @media(min-width:55em){
     .moblogo{
-        float: left;
-        width: 230px;
+        display: none;
     }
     #date{
         font-family: bebas;
         position: absolute;
         top: 60%;
-        text-align: center;
+        left: 68%;
         width: 100%;
         font-size: 50px;
         letter-spacing: 5px;
