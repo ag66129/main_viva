@@ -70,6 +70,10 @@
 			.menu{
 				font-family: 'tosca'
 			}
+			#pop{
+				transform: scale(0);
+				transition-delay: .5s;
+			}
 		</style>
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
@@ -290,6 +294,26 @@
 			</div>
 		</contain></div>
 
+		<div id="pop" style="z-index: 76;
+    transition: all 0.5s ease-in;
+    box-shadow: rgb(6, 1, 1) 8px 8px 5px;
+    width: 80%;
+    height: 80px;
+    background-color: #4a0503;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;transition-delay: .5s;
+    right: 0;text-align: center;
+    margin: auto;">
+			<i onclick="removepop()" style="float: right;
+    /* width: 20px; */
+    transform: scale(1.4);
+    padding: 6px;cursor: pointer;
+    /* height: 30px; */" class="fa fa-times"></i>
+			<h2 style="padding: 10px;">Download our Adnroid app for exciting offers.</h2>
+		</div>
+
 		<!--<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>-->
 		<a href="registration.html">
 		<button id="reg" style="position: absolute; user-select: none;">
@@ -444,8 +468,14 @@
 
         <script>
 			var x = document.getElementById("loader");
+            var y = document.getElementById("pop");
 			function load() {
 				x.style.display="none";
+                y.style.transform="scale(1)";
+                y.style.transitionDelay=".2s";
+            }
+            function removepop() {
+                y.style.transform="scale(0)";
             }
 		</script>
 	</body>
