@@ -491,3 +491,9 @@ main {
 		margin: 0;
 	}
 }
+
+
+
+#secretary, #creative, #media, #sponsorship, #event, #website, #mobile, #video, #spotlight, #photo, #art, #vogue, #dance, #nukkad, #music, #princess, #drama, #gaming {
+	display: none;
+}
