@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9062b0b7-5c0e-4d45-9110-0974a4c4585b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/Mobile_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Mobile_menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery20.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery20.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery21.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery21.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery25.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery25.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery26.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery26.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery27.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery27.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery28.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery28.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery29.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery29.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery30.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery30.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery/gallery9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/ocashish.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/ocashish.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,6 +50,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -28,7 +60,7 @@
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,14 +80,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="25" />
-          <entry key="html" value="186" />
+          <entry key="html" value="187" />
           <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="25" />
-          <entry key="HTML" value="186" />
+          <entry key="HTML" value="187" />
           <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
@@ -74,7 +106,6 @@
                 <element signature="n#style#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -88,10 +119,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/Mobile_menu.css">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="405" column="5" lean-forward="true" selection-start-line="405" selection-start-column="5" selection-end-line="405" selection-end-column="5" />
+            <state relative-caret-position="188">
+              <caret line="249" selection-start-line="249" selection-end-line="249" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,7 +231,6 @@
         <option value="$PROJECT_DIR$/AnimatedMeshLines/index.html" />
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/forms/regart.html" />
         <option value="$PROJECT_DIR$/forms/regbamboozled.html" />
         <option value="$PROJECT_DIR$/forms/regdance.html" />
@@ -217,6 +250,7 @@
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/Mobile_menu.css" />
+        <option value="$PROJECT_DIR$/gallery.html" />
       </list>
     </option>
   </component>
@@ -239,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +289,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,11 +343,12 @@
       <workItem from="1547529669340" duration="3875000" />
       <workItem from="1547563751295" duration="1013000" />
       <workItem from="1547573855575" duration="5323000" />
+      <workItem from="1548092882491" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74276000" />
+    <option name="totallyTimeSpent" value="75332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -593,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -611,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="409" column="75" selection-start-line="409" selection-start-column="75" selection-end-line="409" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#11;n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,6 +646,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="387" column="70" selection-start-line="387" selection-start-column="70" selection-end-line="387" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Mobile_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="405" column="5" lean-forward="true" selection-start-line="405" selection-start-column="5" selection-end-line="405" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -634,7 +666,6 @@
             <element signature="n#style#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#contain#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -646,10 +677,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Mobile_menu.css">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="405" column="5" lean-forward="true" selection-start-line="405" selection-start-column="5" selection-end-line="405" selection-end-column="5" />
+        <state relative-caret-position="188">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
