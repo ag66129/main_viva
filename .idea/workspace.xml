@@ -80,14 +80,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="25" />
-          <entry key="html" value="187" />
+          <entry key="html" value="188" />
           <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="25" />
-          <entry key="HTML" value="187" />
+          <entry key="HTML" value="188" />
           <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
@@ -118,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
@@ -126,6 +126,15 @@
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="536" column="74" selection-start-line="536" selection-start-column="71" selection-end-line="536" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -343,12 +352,12 @@
       <workItem from="1547529669340" duration="3875000" />
       <workItem from="1547563751295" duration="1013000" />
       <workItem from="1547573855575" duration="5323000" />
-      <workItem from="1548092882491" duration="1056000" />
+      <workItem from="1548092882491" duration="1068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75332000" />
+    <option name="totallyTimeSpent" value="75344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -499,13 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="112" column="65" lean-forward="true" selection-start-line="112" selection-start-column="65" selection-end-line="112" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="50" column="72" lean-forward="true" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -684,6 +686,13 @@
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="536" column="74" selection-start-line="536" selection-start-column="71" selection-end-line="536" selection-end-column="74" />
         </state>
       </provider>
     </entry>
