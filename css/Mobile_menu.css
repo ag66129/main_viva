@@ -370,7 +370,7 @@
 @media(max-width:55em){
 .moblogo{
     justify-content:center;
-    display: block;
+    /*display: block;*/
     margin: auto;
     width: 230px;
 }

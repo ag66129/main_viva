@@ -324,7 +324,9 @@ a:focus {
 .content__item--current,
 .content__item--current ~ .content__close {
 	pointer-events: auto;
+
 }
+
 
 .content__close {
 	position: absolute;

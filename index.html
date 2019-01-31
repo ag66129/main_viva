@@ -55,10 +55,21 @@
         <link rel="stylesheet" type="text/css" href="css/mainloader.css" />
 
 		<style>
-			#reg{
+			.reg{
 				top: 10px;height: 40px;background-color: #b40b06;z-index: 4;right: 10px;border: 2px white solid;color: wheat;
 			}
-			#reg:hover{
+			.reg:hover{
+				background-color: wheat;
+				color: #680903;
+				border-color: #680903;
+			}
+			.event{
+				position: absolute;
+				user-select: none;
+				top: 95px;height: 40px;background-color: #b40b06;z-index: 4;right: 10px;border: 2px white solid;color: wheat;
+
+			}
+			.event:hover{
 				background-color: wheat;
 				color: #680903;
 				border-color: #680903;
@@ -311,10 +322,22 @@
 
 		<!--<a href="registration.html"><img src="images/Register_Now_Button.png" style="position: absolute; top: 0;right: 0;width: 15%;z-index: 1"></a>-->
 		<a href="registration.html">
-		<button id="reg" style="position: absolute; user-select: none;">
+		<button class="reg" style="position: absolute; user-select: none;">
 			Register
 		</button>
 		</a>
+
+		<a href="bus_schedule.pdf" target="_blank">
+			<button class="event" style="top: 52px;">
+				Bus Schedule
+			</button>
+		</a>
+
+		<a href="Events_Schedule.pdf" target="_blank">
+			<button class="event">Event Schedule</button>
+		</a>
+
+
 		<div class="social" style="position: fixed;bottom: 10px;right: 10px;z-index: 4">
 		<ul>
 			<a target="_blank" href="https://www.facebook.com/Vivacity.LNMIIT/" style="height: 25px;cursor: pointer;width: 25px;"> <i class="fa fa-facebook" id="shareBtn" style="width: 35px;height: 25px;transform: scale(1.5);"></i></a>
@@ -383,7 +406,7 @@
 					</div>
 					<div class="grim__item">
 						<div class="grim__item-bg grim__item-bg--7"></div>
-						<a href="#" style="width: 100%;height: 100%;" onclick="alert('Coming Soon')">
+						<a href="sponser.html" style="width: 100%;height: 100%;">
 							<div class="grim__item-img grim__item-img--5" style="background-image: url(images/menu/sponsers.png);background-size: cover;"></div>
 						</a>						<a href="#content-3" class="grim__link grim__item-content">
 							<div class="grim__item-inner">
@@ -440,7 +463,7 @@
                         <a href="team.html"><li data-text="Team">Team</li></a>
 
                         <a href="gallery.html"><li data-text="Gallery" onclick="openabout()">Gallery</li></a>
-						<a href="#"><li data-text="Sponsors" onclick="alert('Coming Soon')">Sponsors</li></a>
+						<a href="sponser.html"><li data-text="Sponsors">Sponsors</li></a>
 						<a href="contact.html"><li data-text="Contact" onclick="opencontact()">Contact</li></a>
 					</ul>
 				</nav>
